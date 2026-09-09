@@ -6,7 +6,7 @@ Built to demonstrate the intersection of political-risk analysis and financial d
 
 ## What this is, in one sentence
 
-A Python pipeline pulls live inflation, FX reserve, and external-debt data from the World Bank and IMF, pulls a live Zimbabwe official-vs-parallel FX rate from a third-party aggregator, combines it with a small, explicitly-cited set of manually-researched figures (central bank policy decisions, devaluation events, IMF program status — none of which is exposed by any public API), computes a disclosed-weight composite risk index, and renders all of it in a dependency-light, hand-built dashboard.
+A Python pipeline pulls live inflation, FX reserve, and external-debt data from the World Bank and IMF, pulls a live Zimbabwe official-vs-parallel FX rate from a third-party aggregator, combines it with a small, explicitly-cited set of manually-researched figures (central bank policy decisions, devaluation events, IMF program status, none of which is exposed by any public API), computes a disclosed-weight composite risk index, and renders all of it in a dependency-light, hand-built dashboard.
 
 ## Live dashboard
 
