@@ -350,7 +350,23 @@ def run_pipeline() -> None:
     wb_df = fetch_all_worldbank_indicators()
 
     print("Fetching IMF DataMapper cross-check series...")
-    imf_df = fetch_all_imf_indicators()
+    # This series is explicitly a cross-check, reported alongside the World
+    # Bank inflation figures but never merged into panel.json or
+    # latest_snapshot.json (see ingest_imf_datamapper.py docstring) - so a
+    # failure here must not take down the whole run. IMF's site is known to
+    # block requests from cloud/CI IP ranges (e.g. GitHub Actions runners)
+    # at the network edge, which is an access-control issue on their end,
+    # not a shape/parsing problem with our code. We still refuse to hide
+    # the gap: it's recorded as an explicit null-with-reason (never a
+    # fabricated value) in imf_datamapper_crosscheck.json and surfaced in
+    # meta.json's sanity_check_warnings, which the dashboard renders.
+    imf_df = None
+    imf_fetch_error: str | None = None
+    try:
+        imf_df = fetch_all_imf_indicators()
+    except DataFetchError as exc:
+        imf_fetch_error = str(exc)
+        print(f"  [warning] IMF DataMapper cross-check unavailable this run: {imf_fetch_error}")
 
     print("Fetching live Zimbabwe FX snapshot from ZimRate...")
     zwe_fx = fetch_zimbabwe_fx_snapshot()
@@ -366,12 +382,33 @@ def run_pipeline() -> None:
 
     print("Running sanity checks...")
     warnings = run_sanity_checks(snapshot)
+    if imf_fetch_error:
+        warnings.append(
+            "IMF DataMapper cross-check unavailable this run "
+            f"(supplementary series only, not used in the CSRI or panel data): {imf_fetch_error}"
+        )
     for w in warnings:
         print(f"  [sanity] {w}")
 
     _write_json(_df_records_json_safe(panel), "panel.json")
     _write_json(_sanitize_nans(snapshot), "latest_snapshot.json")
-    _write_json(_df_records_json_safe(imf_df), "imf_datamapper_crosscheck.json")
+    if imf_df is not None:
+        _write_json(_df_records_json_safe(imf_df), "imf_datamapper_crosscheck.json")
+    else:
+        _write_json(
+            {
+                "available": False,
+                "reason": imf_fetch_error,
+                "note": (
+                    "This cross-check series is supplementary - it is reported "
+                    "alongside, but never merged into, the World Bank-sourced "
+                    "inflation figures used in the CSRI and panel charts. Its "
+                    "absence does not affect any number displayed elsewhere on "
+                    "this dashboard."
+                ),
+            },
+            "imf_datamapper_crosscheck.json",
+        )
     _write_json(_df_records_json_safe(manual["devaluation_events"]), "devaluation_events.json")
     _write_json(_df_records_json_safe(manual["policy_rate_decisions"]), "policy_rate_decisions.json")
     _write_json(_df_records_json_safe(manual["imf_program_status"]), "imf_program_status.json")
