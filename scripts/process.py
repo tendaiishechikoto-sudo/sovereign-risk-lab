@@ -139,7 +139,7 @@ def score_imf_program(status_row: pd.Series | None) -> float | None:
 
 def build_latest_snapshot(
     panel: pd.DataFrame,
-    zwe_fx_snapshot: dict[str, Any],
+    zwe_fx_snapshot: dict[str, Any] | None,
     manual: dict[str, pd.DataFrame],
 ) -> dict[str, Any]:
     """Builds the composite CSRI for the most recent year with usable data
@@ -163,7 +163,18 @@ def build_latest_snapshot(
         raw_components[iso3]["external_debt_gdp_pct"] = latest_row.get("external_debt_gdp_pct")
 
     # --- FX spread: live for Zimbabwe, N/A for Kenya/Malawi (documented) ---
-    raw_components["ZWE"]["fx_spread_pct"] = abs(zwe_fx_snapshot["fx_spread_pct"])
+    # zwe_fx_snapshot is None when the live ZimRate fetch failed this run
+    # (see run_pipeline) - treated exactly like the Kenya/Malawi "no
+    # programmatic source" gap: null with an explicit reason, never a
+    # fabricated or stale-cached number.
+    if zwe_fx_snapshot is not None:
+        raw_components["ZWE"]["fx_spread_pct"] = abs(zwe_fx_snapshot["fx_spread_pct"])
+    else:
+        raw_components["ZWE"]["fx_spread_pct"] = None
+        exclusion_reasons["ZWE"]["fx_spread"] = (
+            "Live ZimRate fetch failed this run - see meta.json sanity_check_warnings "
+            "for the reason. Not fabricated or backfilled with a stale value."
+        )
     for iso3 in ("KEN", "MWI"):
         raw_components[iso3]["fx_spread_pct"] = None
         exclusion_reasons[iso3]["fx_spread"] = (
@@ -262,7 +273,17 @@ def build_latest_snapshot(
         "components_used_per_country": components_used,
         "components_excluded_reasons": exclusion_reasons,
         "weights": CSRI_WEIGHTS,
-        "zwe_fx_detail": zwe_fx_snapshot,
+        "zwe_fx_detail": (
+            zwe_fx_snapshot
+            if zwe_fx_snapshot is not None
+            else {
+                "available": False,
+                "reason": exclusion_reasons.get("ZWE", {}).get(
+                    "fx_spread",
+                    "Live ZimRate fetch failed this run.",
+                ),
+            }
+        ),
     }
 
 
@@ -369,7 +390,21 @@ def run_pipeline() -> None:
         print(f"  [warning] IMF DataMapper cross-check unavailable this run: {imf_fetch_error}")
 
     print("Fetching live Zimbabwe FX snapshot from ZimRate...")
-    zwe_fx = fetch_zimbabwe_fx_snapshot()
+    # Unlike the IMF cross-check, this feeds a real CSRI component (fx_spread,
+    # 20% weight) and a dedicated dashboard panel - but the same cloud-CI
+    # network-edge blocking risk applies (ZimRate has been observed reachable
+    # from a normal network path but not from GitHub Actions runner IPs). We
+    # handle it with the exact pattern already established for Kenya/Malawi's
+    # missing parallel-market data: null the value and record an explicit,
+    # human-readable exclusion reason - never fabricate or reuse a stale
+    # cached rate.
+    zwe_fx: dict[str, Any] | None = None
+    zwe_fx_error: str | None = None
+    try:
+        zwe_fx = fetch_zimbabwe_fx_snapshot()
+    except DataFetchError as exc:
+        zwe_fx_error = str(exc)
+        print(f"  [warning] Zimbabwe FX snapshot unavailable this run: {zwe_fx_error}")
 
     print("Loading and validating manual data...")
     manual = load_all_manual_tables()
@@ -386,6 +421,11 @@ def run_pipeline() -> None:
         warnings.append(
             "IMF DataMapper cross-check unavailable this run "
             f"(supplementary series only, not used in the CSRI or panel data): {imf_fetch_error}"
+        )
+    if zwe_fx_error:
+        warnings.append(
+            "Zimbabwe FX snapshot (ZimRate) unavailable this run - fx_spread excluded "
+            f"from the CSRI for Zimbabwe and renormalized, not fabricated: {zwe_fx_error}"
         )
     for w in warnings:
         print(f"  [sanity] {w}")

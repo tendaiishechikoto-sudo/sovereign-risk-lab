@@ -158,6 +158,54 @@ def test_build_latest_snapshot_excludes_missing_components_without_zeroing():
     assert scores["ZWE"] == min(scores.values())
 
 
+def test_build_latest_snapshot_handles_zimbabwe_fx_fetch_failure():
+    # Regression test for the real GitHub Actions failure where ZimRate was
+    # unreachable from the CI runner's network (see README "Known
+    # simplifications"). zwe_fx=None simulates run_pipeline() catching a
+    # DataFetchError from fetch_zimbabwe_fx_snapshot() - the pipeline must
+    # degrade gracefully (null + reason, renormalized weights), never crash
+    # or fabricate a value, exactly like the existing Kenya/Malawi gap.
+    panel = pd.DataFrame([
+        {"country_iso3": "ZWE", "country_name": "Zimbabwe", "year": 2023,
+         "inflation_cpi_pct": 500.0, "inflation_volatility_cv": 2.0,
+         "reserves_months_imports": 0.5, "external_debt_gdp_pct": 40.0},
+        {"country_iso3": "KEN", "country_name": "Kenya", "year": 2023,
+         "inflation_cpi_pct": 7.5, "inflation_volatility_cv": 0.3,
+         "reserves_months_imports": 3.5, "external_debt_gdp_pct": 68.0},
+        {"country_iso3": "MWI", "country_name": "Malawi", "year": 2023,
+         "inflation_cpi_pct": 28.0, "inflation_volatility_cv": 0.5,
+         "reserves_months_imports": 1.0, "external_debt_gdp_pct": 45.0},
+    ])
+    manual = {
+        "policy_rate_decisions": pd.DataFrame([
+            {"country_iso3": "ZWE", "policy_rate_pct": 35.0},
+            {"country_iso3": "ZWE", "policy_rate_pct": 30.0},
+        ]),
+        "imf_program_status": pd.DataFrame([
+            {"country_iso3": "ZWE", "as_of_date": "2026-07-27", "status": "active", "program_type": "Staff-Monitored Program (SMP)"},
+        ]),
+    }
+
+    snapshot = build_latest_snapshot(panel, None, manual)
+
+    # fx_spread must be excluded for ALL THREE countries now, not just KEN/MWI.
+    for iso3 in ("ZWE", "KEN", "MWI"):
+        assert "fx_spread" not in snapshot["components_used_per_country"][iso3]
+        assert "fx_spread" in snapshot["components_excluded_reasons"][iso3]
+    # Zimbabwe's reason must be distinguishable from Kenya/Malawi's ("no
+    # programmatic source") - it's a failed fetch, not a permanent gap.
+    assert "fetch failed" in snapshot["components_excluded_reasons"]["ZWE"]["fx_spread"].lower()
+
+    # zwe_fx_detail must be a well-defined stub the frontend can branch on,
+    # never a bare None that would crash detail.parallel_pairs_used.join(...).
+    assert snapshot["zwe_fx_detail"]["available"] is False
+    assert isinstance(snapshot["zwe_fx_detail"]["reason"], str)
+
+    # The composite must still compute (renormalized over what's left) -
+    # a missing FX spread must not zero out or blow up Zimbabwe's score.
+    assert not pd.isna(snapshot["csri_composite_0_100"]["ZWE"])
+
+
 def test_run_sanity_checks_flags_when_zimbabwe_is_not_least_stable():
     fake_snapshot = {
         "csri_composite_0_100": {"ZWE": 90.0, "KEN": 40.0, "MWI": 50.0},

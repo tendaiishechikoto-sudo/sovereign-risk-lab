@@ -470,6 +470,22 @@ function renderFXSpreadPanel(snapshot) {
   container.innerHTML = "";
   if (!snapshot) return;
   const detail = snapshot.zwe_fx_detail;
+  // detail.available === false means the live ZimRate fetch failed this
+  // pipeline run (e.g. blocked at the network edge for cloud CI runners -
+  // see README "Known simplifications"). We show that honestly instead of
+  // crashing on missing fields or silently rendering stale/blank numbers -
+  // the same "no data" philosophy as the top-level banner.
+  if (!detail || detail.available === false) {
+    container.appendChild(el("div", { class: "banner" }, [
+      el("strong", {}, "Zimbabwe FX snapshot unavailable this run. "),
+      document.createTextNode(
+        (detail && detail.reason) ||
+          "The live ZimRate fetch failed and was not backfilled with a fabricated or stale value. " +
+          "See the methodology section's sanity-check log for details.",
+      ),
+    ]));
+    return;
+  }
   container.appendChild(el("div", { class: "fx-stat" }, [
     el("div", { class: "fx-label" }, "Official (ZimRate 'official_api' tag)"),
     el("div", { class: "fx-value" }, fmtNum(detail.official_rate_usd_zwg, 2)),
