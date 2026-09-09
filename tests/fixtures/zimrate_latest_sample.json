@@ -1,0 +1,7 @@
+[
+  {"id": 195744, "source": {"id": 4, "name": "Exchange Rate API", "type": "official_api", "url": "https://api.exchangerate-api.com/v4/latest/USD", "active": true}, "currencyPair": "USD/ZWG", "buyRate": 26.85, "sellRate": 26.85, "scrapedAt": "2026-09-08T12:12:22.959918"},
+  {"id": 185354, "source": {"id": 62, "name": "ZimPriceCheck", "type": "parallel_market", "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/", "active": true}, "currencyPair": "USD/ZiG", "buyRate": 26.6291, "sellRate": 26.6291, "scrapedAt": "2026-08-24T08:19:56.664461"},
+  {"id": 185357, "source": {"id": 62, "name": "ZimPriceCheck", "type": "parallel_market", "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/", "active": true}, "currencyPair": "USD/ZiG_InformalHigh", "buyRate": 30.0, "sellRate": 30.0, "scrapedAt": "2026-08-24T08:19:56.664496"},
+  {"id": 185356, "source": {"id": 62, "name": "ZimPriceCheck", "type": "parallel_market", "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/", "active": true}, "currencyPair": "USD/ZiG_InformalLow", "buyRate": 33.0, "sellRate": 33.0, "scrapedAt": "2026-08-24T08:19:56.664493"},
+  {"id": 195708, "source": {"id": 105, "name": "Stanbic Bank", "type": "bank", "url": "https://www.stanbicbank.co.zw", "active": true}, "currencyPair": "USD/ZWG", "buyRate": 25.7899, "sellRate": 27.6607, "scrapedAt": "2026-09-08T10:00:00"}
+]

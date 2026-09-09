@@ -1,0 +1,34 @@
+name: Refresh data
+
+# Runs the live pipeline (World Bank, IMF DataMapper, ZimRate) on a schedule
+# and commits the refreshed data/processed/*.json so GitHub Pages always
+# serves current numbers without anyone needing to run the pipeline by hand.
+# Manual data (raw/manual/*.csv) is never touched by this workflow - it
+# changes only when a human re-researches and edits it (see raw/manual/README.md).
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"  # weekly, Monday 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Run pipeline
+        run: python scripts/process.py
+      - name: Commit refreshed data if changed
+        run: |
+          git config user.name "sovereign-risk-lab-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/processed/ raw/api_cache/
+          git diff --cached --quiet || git commit -m "chore: refresh live data [automated]"
+          git push

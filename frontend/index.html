@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sovereign Risk Lab — Currency &amp; Inflation Risk Model</title>
+<meta name="description" content="A comparative currency and inflation risk model for Zimbabwe, Kenya, and Malawi, built on live IMF/World Bank data.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%232a78d6'/%3E%3Cpath d='M22 68 L40 46 L56 58 L78 30' stroke='white' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="page-header">
+  <div class="header-inner">
+    <div class="header-titles">
+      <p class="eyebrow">Sovereign Risk Lab</p>
+      <h1>Currency &amp; Inflation Risk Model</h1>
+      <p class="subtitle">Zimbabwe · Kenya · Malawi — a comparative currency stability and sovereign risk model, built on live IMF and World Bank data plus cited manual research.</p>
+    </div>
+    <div class="header-meta" id="header-meta" aria-live="polite">
+      <!-- populated by script.js: last-refreshed timestamp, data-mode badge -->
+    </div>
+  </div>
+</header>
+
+<main id="app">
+
+  <section id="data-state-banner" class="banner" hidden></section>
+
+  <section class="section" aria-labelledby="kpi-heading">
+    <h2 id="kpi-heading" class="section-title">Currency Stability &amp; Sovereign Risk Index (CSRI)</h2>
+    <p class="section-note">Composite score, 0–100, higher = more stable. Weighted blend of inflation, FX spread, reserve adequacy, external debt/GDP, policy-rate volatility, and IMF program status. See <a href="#methodology">methodology</a> for weights and how missing components are handled.</p>
+    <div id="kpi-row" class="kpi-row" role="list"></div>
+  </section>
+
+  <section class="section" aria-labelledby="csri-chart-heading">
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <h2 id="csri-chart-heading" class="section-title">Composite index by country</h2>
+        <button class="table-toggle" data-toggle-table="csri" aria-expanded="false">View as table</button>
+      </div>
+      <div id="csri-chart" class="chart-body"></div>
+      <div id="csri-table" class="table-body" hidden></div>
+    </div>
+  </section>
+
+  <section class="section two-col" aria-labelledby="inflation-heading">
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <h2 id="inflation-heading" class="section-title">Headline inflation, annual %</h2>
+        <button class="table-toggle" data-toggle-table="inflation" aria-expanded="false">View as table</button>
+      </div>
+      <p class="section-note">Log scale — Zimbabwe's inflation history dwarfs Kenya's and Malawi's on a linear axis.</p>
+      <div id="inflation-chart" class="chart-body"></div>
+      <div id="inflation-table" class="table-body" hidden></div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <h2 id="reserves-heading" class="section-title">Reserve adequacy, months of import cover</h2>
+        <button class="table-toggle" data-toggle-table="reserves" aria-expanded="false">View as table</button>
+      </div>
+      <p class="section-note">IMF/World Bank rule-of-thumb benchmark: ≥3 months is generally considered adequate cover.</p>
+      <div id="reserves-chart" class="chart-body"></div>
+      <div id="reserves-table" class="table-body" hidden></div>
+    </div>
+  </section>
+
+  <section class="section two-col" aria-labelledby="debt-heading">
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <h2 id="debt-heading" class="section-title">External debt / GDP</h2>
+        <button class="table-toggle" data-toggle-table="debt" aria-expanded="false">View as table</button>
+      </div>
+      <div id="debt-chart" class="chart-body"></div>
+      <div id="debt-table" class="table-body" hidden></div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <h2 class="section-title">Zimbabwe: official vs. parallel-market rate</h2>
+      </div>
+      <p class="section-note">Parallel/black-market rate via <a href="https://zimrate.com" target="_blank" rel="noopener">ZimRate</a>, a third-party aggregator — not an RBZ figure. Kenya and Malawi are not shown here: no comparable programmatic parallel-market source was identified for either (see methodology).</p>
+      <div id="fx-spread-panel" class="fx-spread-panel"></div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="events-heading">
+    <h2 id="events-heading" class="section-title">Currency devaluation &amp; redenomination events</h2>
+    <p class="section-note">Manually curated from IMF Article IV reports and central bank announcements — every entry is dated and sourced. See <code>raw/manual/devaluation_events.csv</code>.</p>
+    <div id="events-timeline" class="events-timeline"></div>
+  </section>
+
+  <section class="section two-col" aria-labelledby="policy-heading">
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <h2 id="policy-heading" class="section-title">Central bank policy rate decisions</h2>
+      </div>
+      <p class="section-note">A curated set of key decisions, not a complete monthly series — no central bank in this study publishes a queryable rate-history API. See <code>raw/manual/policy_rate_decisions.csv</code>.</p>
+      <div id="policy-table" class="table-body"></div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <h2 class="section-title">IMF program status</h2>
+      </div>
+      <div id="imf-status-panel" class="imf-status-panel"></div>
+    </div>
+  </section>
+
+  <section class="section" id="methodology" aria-labelledby="methodology-heading">
+    <h2 id="methodology-heading" class="section-title">Methodology &amp; data provenance</h2>
+    <div id="methodology-body" class="methodology-body"></div>
+  </section>
+
+</main>
+
+<footer class="page-footer">
+  <p>Built by Tendaiishe Chikoto · <a href="https://github.com/tendaiishechikoto-sudo/sovereign-risk-lab" target="_blank" rel="noopener">source on GitHub</a> · data from IMF, World Bank, ZimRate, and cited central bank / IMF press releases.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
