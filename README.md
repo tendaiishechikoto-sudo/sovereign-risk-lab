@@ -128,6 +128,29 @@ pytest tests/ -v
 - No monthly inflation series (see Known simplifications).
 - Kenya and Malawi have no parallel-market FX field populated — not because it doesn't matter, but because no reliable programmatic source was found for either during methodology research.
 
+## Phase Two — African Football Transfer Economy Model (in progress)
+
+**Status: data pipeline built and tested; no frontend yet.** This section will be expanded as phase two progresses — see `/methodology.md` in the project for the full approved methodology and the source-verification trail behind every decision below.
+
+Lives in `football/`, mirroring this repo's own architecture: `football/raw/manual/*.csv` (cited, dated) → `football/scripts/process.py` → `football/data/processed/*.json`. Same non-negotiables as phase one: no fabricated numbers, no silent failure, every manual figure sourced and dated.
+
+**What it actually measures right now:** a **Football Export Footprint Index (FEFI)** — expatriate player volume (2020–2025), sourced from CIES Football Observatory Monthly Report 100 — for the five African nations that report gives a real, sourced figure for: Nigeria, Ghana, Senegal, Côte d'Ivoire, Cameroon. Zimbabwe, Kenya, and Malawi are not tracked by CIES at all; rather than score them as zero, they're covered separately through named case-study transfers (real players, real clubs, one real transfer fee — Collins Sichenje's €1.9m move to Charlton Athletic) and World Bank GDP/remittance context, with an explicit statement that no aggregate transfer-income series exists for them.
+
+**What was originally planned but dropped after verification, and why:**
+- A "value capture vs. leakage" score (agent commissions, FIFA solidarity/training-compensation payments) — no current, country-level data exists anywhere found. What's real is kept as cited narrative context (`value_capture_context.json`): FIFA's 2025 confederation agent-fee breakdown (CAF: USD 70.3k across 13–14 transfers, likely the wrong side of the transaction for an export-leakage metric) and a historical 2018 solidarity-mechanism compliance figure (19.3% of amounts owed actually paid, per a 2020 legal-scholarship analysis of FIFA's own reporting).
+- A "destination concentration in Big-5 leagues" score — the source report gives this breakdown for only one African nation (Nigeria), so it can't be computed comparably across the index. Nigeria's real destination data (top 5: Czech Republic, Turkey, Israel, Portugal, Slovakia — notably *none* in a Big-5 league) is kept as a standalone case study instead of being generalized.
+
+Run it the same way as phase one:
+
+```bash
+cd football
+python scripts/ingest_manual.py   # validate manual data, no network needed
+python scripts/process.py         # full pipeline (needs network access to worldbank.org)
+pytest tests/ -v                  # 10 tests, all offline
+```
+
+**Next steps:** a frontend panel reading `football/data/processed/*.json`, and broadening FEFI's country coverage or destination-concentration data if a fuller source is found.
+
 ## License
 
 MIT — see [`LICENSE`](LICENSE).
