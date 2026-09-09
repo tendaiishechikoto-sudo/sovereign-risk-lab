@@ -17,3 +17,9 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python scripts/ingest_manual.py
       - run: pytest tests/ -v
+      - name: Phase two (football) - validate manual data
+        working-directory: football
+        run: python scripts/ingest_manual.py
+      - name: Phase two (football) - tests
+        working-directory: football
+        run: pytest tests/ -v
