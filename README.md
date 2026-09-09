@@ -1,12 +1,12 @@
 # Sovereign Risk Lab — Currency & Inflation Risk Model
 
-A comparative currency stability and sovereign risk model for **Zimbabwe, Kenya, and Malawi** — three countries I've lived in — built on live IMF and World Bank data, plus cited manual research where no live API exists. First model in a planned two-part portfolio project (a companion African football transfer-economy model is phase two).
+A comparative currency stability and sovereign risk model for **Zimbabwe, Kenya, and Malawi** . Three countries I've lived in, built on live IMF and World Bank data, plus cited manual research where no live API exists. First model in a planned two-part portfolio project (a companion African football transfer-economy model is phase two).
 
 Built to demonstrate the intersection of political-risk analysis and financial data science for grad/internship applications in finance and data analysis.
 
 ## What this is, in one sentence
 
-A Python pipeline pulls live inflation, FX reserve, and external-debt data from the World Bank and IMF, pulls a live Zimbabwe official-vs-parallel FX rate from a third-party aggregator, combines it with a small, explicitly-cited set of manually-researched figures (central bank policy decisions, devaluation events, IMF program status — none of which is exposed by any public API), computes a disclosed-weight composite risk index, and renders all of it in a dependency-light, hand-built dashboard.
+A Python pipeline pulls live inflation, FX reserve, and external-debt data from the World Bank and IMF, pulls a live Zimbabwe official-vs-parallel FX rate from a third-party aggregator, combines it with a small, explicitly-cited set of manually-researched figures (central bank policy decisions, devaluation events, IMF program status, none of which is exposed by any public API), computes a disclosed-weight composite risk index, and renders all of it in a dependency-light, hand-built dashboard.
 
 ## Live dashboard
 
