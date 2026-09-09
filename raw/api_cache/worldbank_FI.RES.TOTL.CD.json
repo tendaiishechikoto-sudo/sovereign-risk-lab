@@ -1,0 +1,530 @@
+[
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2025",
+    "value": 12394288741.4979,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2024",
+    "value": 10066607177.351,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2023",
+    "value": 7341776189.84466,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2022",
+    "value": 7969488013.00049,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2021",
+    "value": 9490896580.9297,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2020",
+    "value": 8297263558.90541,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2019",
+    "value": 9115806005.21186,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2018",
+    "value": 8164380806.22987,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2017",
+    "value": 7325420063.33911,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2016",
+    "value": 7553884912.6237,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2015",
+    "value": 7514864907.05536,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2025",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2024",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2023",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2022",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2021",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2020",
+    "value": 594498493.623211,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2019",
+    "value": 846839844.266183,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2018",
+    "value": 766154761.931253,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2017",
+    "value": 768401046.225973,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2016",
+    "value": 610774217.598916,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2015",
+    "value": 681580478.271052,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2025",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2024",
+    "value": 484972804.72655,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2023",
+    "value": 115529709.859095,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2022",
+    "value": 598621573.627058,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2021",
+    "value": 838780244.641997,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2020",
+    "value": 33405021.0134395,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2019",
+    "value": 151240506.889991,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2018",
+    "value": 86951094.0294849,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2017",
+    "value": 292621249.111637,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2016",
+    "value": 407193244.098736,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.CD",
+      "value": "Total reserves (includes gold, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2015",
+    "value": 434586085.852928,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  }
+]

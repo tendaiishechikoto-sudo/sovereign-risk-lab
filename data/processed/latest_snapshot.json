@@ -1,0 +1,101 @@
+{
+  "latest_year_per_country": {
+    "ZWE": 2022,
+    "KEN": 2025,
+    "MWI": 2025
+  },
+  "raw_components": {
+    "ZWE": {
+      "inflation_cpi_pct": 104.705170628667,
+      "inflation_volatility_cv": 1.049783359082199,
+      "reserves_months_imports": 0.704318586792695,
+      "external_debt_gdp_pct": 34.64577842508877,
+      "fx_spread_pct": null,
+      "policy_rate_volatility": null,
+      "imf_program_flag": 55.0
+    },
+    "KEN": {
+      "inflation_cpi_pct": 4.06912878540729,
+      "inflation_volatility_cv": 0.28346587165600107,
+      "reserves_months_imports": null,
+      "external_debt_gdp_pct": null,
+      "fx_spread_pct": null,
+      "policy_rate_volatility": 2.4748737341529163,
+      "imf_program_flag": 40.0
+    },
+    "MWI": {
+      "inflation_cpi_pct": 28.3702565330281,
+      "inflation_volatility_cv": 0.3815985587480742,
+      "reserves_months_imports": null,
+      "external_debt_gdp_pct": null,
+      "fx_spread_pct": null,
+      "policy_rate_volatility": 1.4142135623730951,
+      "imf_program_flag": 30.0
+    }
+  },
+  "normalized_components_0_100": {
+    "ZWE": {
+      "inflation": 0.0,
+      "reserve_adequacy": 50.0,
+      "external_debt": 50.0,
+      "imf_program_flag": 100.0
+    },
+    "KEN": {
+      "inflation": 100.0,
+      "policy_rate_volatility": 0.0,
+      "imf_program_flag": 40.0
+    },
+    "MWI": {
+      "inflation": 80.75544556398079,
+      "policy_rate_volatility": 100.0,
+      "imf_program_flag": 0.0
+    }
+  },
+  "csri_composite_0_100": {
+    "ZWE": 39.29,
+    "KEN": 64.44,
+    "MWI": 67.09
+  },
+  "components_used_per_country": {
+    "ZWE": [
+      "external_debt",
+      "imf_program_flag",
+      "inflation",
+      "reserve_adequacy"
+    ],
+    "KEN": [
+      "imf_program_flag",
+      "inflation",
+      "policy_rate_volatility"
+    ],
+    "MWI": [
+      "imf_program_flag",
+      "inflation",
+      "policy_rate_volatility"
+    ]
+  },
+  "components_excluded_reasons": {
+    "ZWE": {
+      "fx_spread": "Live ZimRate fetch failed this run - see meta.json sanity_check_warnings for the reason. Not fabricated or backfilled with a stale value.",
+      "policy_rate_volatility": "Only 1 curated policy rate decision(s) on file for this country - not enough to compute a meaningful volatility figure. See raw/manual/policy_rate_decisions.csv."
+    },
+    "KEN": {
+      "fx_spread": "No programmatic parallel-market FX source identified for this country during methodology research; not fabricated."
+    },
+    "MWI": {
+      "fx_spread": "No programmatic parallel-market FX source identified for this country during methodology research; not fabricated."
+    }
+  },
+  "weights": {
+    "inflation": 0.25,
+    "fx_spread": 0.2,
+    "reserve_adequacy": 0.2,
+    "external_debt": 0.15,
+    "policy_rate_volatility": 0.1,
+    "imf_program_flag": 0.1
+  },
+  "zwe_fx_detail": {
+    "available": false,
+    "reason": "Live ZimRate fetch failed this run - see meta.json sanity_check_warnings for the reason. Not fabricated or backfilled with a stale value."
+  }
+}

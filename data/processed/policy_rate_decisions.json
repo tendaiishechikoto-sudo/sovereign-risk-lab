@@ -1,0 +1,47 @@
+[
+  {
+    "country_iso3": "KEN",
+    "decision_date": "2023-03-29",
+    "policy_rate_pct": 9.5,
+    "change_bps": null,
+    "decision": "MPC raised the Central Bank Rate (CBR) to 9.50%.",
+    "source_url": "https://www.centralbank.go.ke/2023/03/29/mpc-raises-cbr-to-9-50-percent/",
+    "date_retrieved": "2026-09-08"
+  },
+  {
+    "country_iso3": "KEN",
+    "decision_date": "2024-02-06",
+    "policy_rate_pct": 13.0,
+    "change_bps": 50.0,
+    "decision": "MPC raised the CBR by 50bps to 13.00%.",
+    "source_url": "https://kenyanwallstreet.com/cbk-hikes-benchmark-rate-to-13",
+    "date_retrieved": "2026-09-08"
+  },
+  {
+    "country_iso3": "MWI",
+    "decision_date": "2025-10-29",
+    "policy_rate_pct": 26.0,
+    "change_bps": 0.0,
+    "decision": "RBM MPC held the policy rate at 26.0%, its 4th MPC meeting of 2025.",
+    "source_url": "https://www.facebook.com/Malawi24/photos/mpc-holds-policy-rate-at-26-as-inflation-pressures-persistthe-reserve-bank-of-ma/1276346411190950/",
+    "date_retrieved": "2026-09-08"
+  },
+  {
+    "country_iso3": "MWI",
+    "decision_date": "2026-08-06",
+    "policy_rate_pct": 24.0,
+    "change_bps": null,
+    "decision": "RBM policy rate maintained at 24.0% as inflation pressures eased.",
+    "source_url": "https://malawi24.com/2026/08/06/policy-rate-maintained-at-24/",
+    "date_retrieved": "2026-09-08"
+  },
+  {
+    "country_iso3": "ZWE",
+    "decision_date": "2026-06-15",
+    "policy_rate_pct": 30.0,
+    "change_bps": -500.0,
+    "decision": "RBZ cut the bank policy rate from 35% to 30%, the first cut since the ZiG launch in April 2024; Targeted Finance Facility rate cut from 20% to 15% simultaneously.",
+    "source_url": "https://www.heraldonline.co.zw/rbz-slashes-policy-rate-to-30-percent-in-first-cut-since-zig-launch/",
+    "date_retrieved": "2026-09-08"
+  }
+]

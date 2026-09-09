@@ -1,0 +1,5 @@
+{
+  "available": false,
+  "reason": "Unexpected HTTP 403 fetching https://www.imf.org/external/datamapper/api/v1/PCPIPCH/ZWE. Body (truncated): <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;imf&#46;org&#47;external&#47;datamapper&#47;api&#47;v1&#47;PCPIPCH&#47;ZWE\" on this server.<P>\nReference&#32;&#35;18&#46;cd68dc17&#46;1788993110&#46;600fe619\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;cd68dc17&#46;1788993110&#46;600fe619</P>\n</BODY>\n</HTML>\n",
+  "note": "This cross-check series is supplementary - it is reported alongside, but never merged into, the World Bank-sourced inflation figures used in the CSRI and panel charts. Its absence does not affect any number displayed elsewhere on this dashboard."
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "country_iso3": "ZWE",
+    "event_date": "2019-02-25",
+    "event_date_precision": "day",
+    "event": "RTGS$ introduced",
+    "magnitude_pct": null,
+    "description": "RTGS dollar launched as Zimbabwe's post-dollarization currency at an initial official rate of 2.50 per USD, ending the 2009-2019 multi-currency (mostly USD) regime.",
+    "source_url": "https://en.wikipedia.org/wiki/Zimbabwean_dollar_(2019%E2%80%932024)",
+    "date_retrieved": "2026-09-08"
+  },
+  {
+    "country_iso3": "ZWE",
+    "event_date": "2023-06-01",
+    "event_date_precision": "month",
+    "event": "Parallel-market currency crisis",
+    "magnitude_pct": -83.0,
+    "description": "Money supply roughly quadrupled over May-June 2023; ZWL depreciated approximately 83% on the parallel market (from ~Z$1070.42/USD to ~Z$6351.50/USD).",
+    "source_url": "https://en.wikipedia.org/wiki/Zimbabwean_dollar_(2019%E2%80%932024)",
+    "date_retrieved": "2026-09-08"
+  },
+  {
+    "country_iso3": "ZWE",
+    "event_date": "2024-04-05",
+    "event_date_precision": "day",
+    "event": "ZiG (Zimbabwe Gold) announced",
+    "magnitude_pct": null,
+    "description": "RBZ announced a new structured currency, ZiG, backed by gold and foreign-currency reserves, after ZWL had weakened past Z$30,000/USD.",
+    "source_url": "https://www.rbz.co.zw/documents/press/2024/July/PRESS_STATEMENT_ON_ZiG_CURRENCY_CODE.pdf",
+    "date_retrieved": "2026-09-08"
+  },
+  {
+    "country_iso3": "ZWE",
+    "event_date": "2024-04-08",
+    "event_date_precision": "day",
+    "event": "ZWL replaced by ZiG",
+    "magnitude_pct": null,
+    "description": "ZiG formally replaced the ZWL at a conversion rate of 1 ZiG = 2498.7242 ZWL.",
+    "source_url": "https://en.wikipedia.org/wiki/Zimbabwean_dollar_(2019%E2%80%932024)",
+    "date_retrieved": "2026-09-08"
+  },
+  {
+    "country_iso3": "ZWE",
+    "event_date": "2024-08-31",
+    "event_date_precision": "day",
+    "event": "ZWL officially retired",
+    "magnitude_pct": null,
+    "description": "Zimbabwean dollar (2019-2024 series) formally decommissioned; ZiG stands as sole RBZ-issued local currency going forward.",
+    "source_url": "https://en.wikipedia.org/wiki/Zimbabwean_dollar_(2019%E2%80%932024)",
+    "date_retrieved": "2026-09-08"
+  },
+  {
+    "country_iso3": "MWI",
+    "event_date": "2022-05-01",
+    "event_date_precision": "month",
+    "event": "Kwacha devaluation",
+    "magnitude_pct": -25.0,
+    "description": "Reserve Bank of Malawi devalued the kwacha by approximately 25% amid persistent forex shortages. Month-level precision only; exact day not confirmed in this research pass.",
+    "source_url": "https://mwnation.com/two-devaluations-later-different-tune/",
+    "date_retrieved": "2026-09-08"
+  },
+  {
+    "country_iso3": "MWI",
+    "event_date": "2023-11-09",
+    "event_date_precision": "day",
+    "event": "Kwacha devaluation",
+    "magnitude_pct": -44.0,
+    "description": "RBM devalued the kwacha by 44% and moved toward a more market-reflective rate, amid a severe dollar shortage, as part of IMF-backed reform discussions.",
+    "source_url": "https://www.bloomberg.com/news/articles/2023-11-09/dollar-crisis-spurs-malawi-to-devalue-its-currency-by-44",
+    "date_retrieved": "2026-09-08"
+  },
+  {
+    "country_iso3": "KEN",
+    "event_date": "2023-12-01",
+    "event_date_precision": "quarter",
+    "event": "FX market liberalization / shilling depreciation",
+    "magnitude_pct": null,
+    "description": "Shilling depreciated sharply through 2023 amid CBK/IMF-backed reforms to eliminate parallel FX rationing and move toward a more market-determined rate; reforms crystallized around Dec 2023.",
+    "source_url": "https://www.businessdailyafrica.com/bd/data-hub/why-imf-wants-cbk-to-let-the-shilling-depreciate--4202622",
+    "date_retrieved": "2026-09-08"
+  }
+]

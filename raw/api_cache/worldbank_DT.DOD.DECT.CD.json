@@ -1,0 +1,530 @@
+[
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2025",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2024",
+    "value": 42886127218.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2023",
+    "value": 42910026054.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2022",
+    "value": 41556299639.8,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2021",
+    "value": 41219100011.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2020",
+    "value": 38038451074.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2019",
+    "value": 34970099589.9,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2018",
+    "value": 31433802015.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2017",
+    "value": 26951349499.4,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2016",
+    "value": 21057671043.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2015",
+    "value": 19783760501.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2025",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2024",
+    "value": 3743648285.8,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2023",
+    "value": 3604152682.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2022",
+    "value": 3340066801.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2021",
+    "value": 3197123056.9,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2020",
+    "value": 2961709327.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2019",
+    "value": 2427416965.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2018",
+    "value": 2265713574.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2017",
+    "value": 2162398106.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2016",
+    "value": 1848081075.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2015",
+    "value": 1722514630.8,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2025",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2024",
+    "value": 14403740329.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2023",
+    "value": 14548534104.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2022",
+    "value": 14120782697.4,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2021",
+    "value": 14111057739.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2020",
+    "value": 13034165720.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2019",
+    "value": 12540836851.8,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2018",
+    "value": 12984251689.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2017",
+    "value": 12864409243,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2016",
+    "value": 11815422651.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "DT.DOD.DECT.CD",
+      "value": "External debt stocks, total (DOD, current US$)"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2015",
+    "value": 9995059194.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  }
+]

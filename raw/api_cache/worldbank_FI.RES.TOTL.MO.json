@@ -1,0 +1,530 @@
+[
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2025",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2024",
+    "value": 4.02886150176484,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2023",
+    "value": 3.13876976697341,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2022",
+    "value": 3.2163509377815,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2021",
+    "value": 4.42483155112942,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2020",
+    "value": 5.00168160921731,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2019",
+    "value": 4.9206748709835,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2018",
+    "value": 4.50003970094331,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2017",
+    "value": 4.22919808384001,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2016",
+    "value": 5.24445206958815,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "KE",
+      "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2015",
+    "value": 4.85820155529876,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2025",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2024",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2023",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2022",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2021",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2020",
+    "value": 1.91482223577028,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2019",
+    "value": 2.85784777016507,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2018",
+    "value": 2.75955421753768,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2017",
+    "value": 3.00930636178987,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2016",
+    "value": 2.9264322975848,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "MW",
+      "value": "Malawi"
+    },
+    "countryiso3code": "MWI",
+    "date": "2015",
+    "value": 2.98953546845057,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2025",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2024",
+    "value": 0.519375437391082,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2023",
+    "value": 0.129140652810182,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2022",
+    "value": 0.704318586792695,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2021",
+    "value": 1.14822003436593,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2020",
+    "value": 0.0627563301218121,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2019",
+    "value": 0.315495092372553,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2018",
+    "value": 0.131062982530595,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2017",
+    "value": 0.531017617986876,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2016",
+    "value": 0.741706945426817,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  },
+  {
+    "indicator": {
+      "id": "FI.RES.TOTL.MO",
+      "value": "Total reserves in months of imports"
+    },
+    "country": {
+      "id": "ZW",
+      "value": "Zimbabwe"
+    },
+    "countryiso3code": "ZWE",
+    "date": "2015",
+    "value": 0.687604713433443,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+  }
+]
