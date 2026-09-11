@@ -1,0 +1,33 @@
+{
+  "run_started_at_utc": "2026-09-11T01:09:14.414162+00:00",
+  "run_finished_at_utc": "2026-09-11T01:09:15.160678+00:00",
+  "fefi_countries": {
+    "NGA": "Nigeria",
+    "GHA": "Ghana",
+    "SEN": "Senegal",
+    "CIV": "Cote d'Ivoire",
+    "CMR": "Cameroon"
+  },
+  "comparator_countries": {
+    "ZWE": "Zimbabwe",
+    "KEN": "Kenya",
+    "MWI": "Malawi"
+  },
+  "fefi_weights": {
+    "expatriate_volume": 1.0
+  },
+  "sanity_check_warnings": [
+    "FEFI is currently a single-component index (expatriate_volume only). The originally-approved 'destination concentration' component was dropped after source verification found it computable for only one country (Nigeria) - see /methodology.md. Treat FEFI as an export-volume measure, not a rounded 'export footprint' score, until a broader source is found.",
+    "FEFI ranking this run (highest footprint first): NGA (926), GHA (677), SEN (511), CIV (484), CMR (327)",
+    "ZWE: excluded from FEFI entirely - not tracked by CIES Monthly Report 100. Covered instead via case_study_transfers.json and comparator_context.json.",
+    "KEN: excluded from FEFI entirely - not tracked by CIES Monthly Report 100. Covered instead via case_study_transfers.json and comparator_context.json.",
+    "MWI: excluded from FEFI entirely - not tracked by CIES Monthly Report 100. Covered instead via case_study_transfers.json and comparator_context.json."
+  ],
+  "sources": {
+    "cies_football_observatory": "https://football-observatory.hflip.co/MonthlyReport100 - Monthly Report 100, Football Expatriates 2020-2025",
+    "world_bank": "https://api.worldbank.org/v2 - World Development Indicators (GDP, remittances)",
+    "fifa_football_agents_report_2025": "https://digitalhub.fifa.com/m/1229fa2915af0144/original/Football-Agents-Report-2025.pdf",
+    "asser_sports_law_blog": "https://www.asser.nl/SportsLaw/Blog/post/revisiting-fifa-s-training-compensation-and-solidarity-mechanism-part-2-the-african-reality-by-rhys-lenarduzzi",
+    "case_study_press_coverage": "see raw/manual/case_study_transfers.csv for per-player sources"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "country_iso3": "NGA",
+  "yearly_trend_2020_2025": [
+    {
+      "year": 2020,
+      "expatriate_count": 319
+    },
+    {
+      "year": 2021,
+      "expatriate_count": 352
+    },
+    {
+      "year": 2022,
+      "expatriate_count": 339
+    },
+    {
+      "year": 2023,
+      "expatriate_count": 387
+    },
+    {
+      "year": 2024,
+      "expatriate_count": 427
+    },
+    {
+      "year": 2025,
+      "expatriate_count": 500
+    }
+  ],
+  "top_5_destinations_2020_2025": [
+    {
+      "destination_country": "Czech Republic",
+      "expatriate_count": 65,
+      "is_big5_league_country": false
+    },
+    {
+      "destination_country": "Turkey",
+      "expatriate_count": 59,
+      "is_big5_league_country": false
+    },
+    {
+      "destination_country": "Israel",
+      "expatriate_count": 53,
+      "is_big5_league_country": false
+    },
+    {
+      "destination_country": "Portugal",
+      "expatriate_count": 53,
+      "is_big5_league_country": false
+    },
+    {
+      "destination_country": "Slovakia",
+      "expatriate_count": 52,
+      "is_big5_league_country": false
+    }
+  ],
+  "top_5_destinations_big5_league_share_pct": 0.0,
+  "note": "Nigeria is the only African nation CIES Monthly Report 100 gives this level of detail for. None of Nigeria's top 5 listed destinations are in a 'Big 5' European league - shown here as a case-study finding, not generalized to other countries, since no comparable destination data exists for them."
+}

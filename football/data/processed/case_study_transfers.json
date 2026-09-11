@@ -1,0 +1,143 @@
+{
+  "countries": {
+    "ZWE": "Zimbabwe",
+    "KEN": "Kenya",
+    "MWI": "Malawi"
+  },
+  "players_by_country": {
+    "ZWE": [
+      {
+        "player_name": "Marvelous Nakamba",
+        "position": "Midfielder",
+        "current_club": "Luton Town",
+        "current_league": "England (EFL Championship)",
+        "previous_club": "Aston Villa",
+        "transfer_fee_eur": null,
+        "fee_confirmed": false,
+        "source_url": "https://www.heraldonline.co.zw/zimbabwes-top-footballers-competing-in-europes-major-leagues/",
+        "notes": "Career began in France (2013); fee not stated in source - left blank rather than estimated."
+      },
+      {
+        "player_name": "Tawanda Chirewa",
+        "position": "Forward",
+        "current_club": "Wolverhampton Wanderers",
+        "current_league": "England (Premier League)",
+        "previous_club": "Ipswich Town (loan)",
+        "transfer_fee_eur": null,
+        "fee_confirmed": false,
+        "source_url": "https://www.heraldonline.co.zw/zimbabwes-top-footballers-competing-in-europes-major-leagues/",
+        "notes": "Age ~20 per source; fee not stated."
+      },
+      {
+        "player_name": "Jordan Zemura",
+        "position": "Defender",
+        "current_club": "Udinese",
+        "current_league": "Italy (Serie A)",
+        "previous_club": "AFC Bournemouth",
+        "transfer_fee_eur": null,
+        "fee_confirmed": false,
+        "source_url": "https://www.heraldonline.co.zw/zimbabwes-top-footballers-competing-in-europes-major-leagues/",
+        "notes": "Fee not stated in source."
+      },
+      {
+        "player_name": "Phila Kadewere",
+        "position": "Forward",
+        "current_club": "Nantes",
+        "current_league": "France (Ligue 1)",
+        "previous_club": "Clubs in Sweden (Djurgarden)/France/Spain",
+        "transfer_fee_eur": null,
+        "fee_confirmed": false,
+        "source_url": "https://www.heraldonline.co.zw/zimbabwes-top-footballers-competing-in-europes-major-leagues/",
+        "notes": "Age ~28 per source; fee not stated."
+      }
+    ],
+    "KEN": [
+      {
+        "player_name": "Collins Sichenje",
+        "position": "Centre-back",
+        "current_club": "Charlton Athletic",
+        "current_league": "England (EFL Championship)",
+        "previous_club": "FK Vojvodina",
+        "transfer_fee_eur": 1900000.0,
+        "fee_confirmed": true,
+        "source_url": "https://www.the-star.co.ke/sports/football/2026-01-30-kenyan-footballers-break-into-europe-sichenje-ochieng-wanjala-lead-the-way",
+        "notes": "Only case-study transfer in this file with a reported fee."
+      },
+      {
+        "player_name": "Job Ochieng",
+        "position": "Forward",
+        "current_club": "Real Sociedad",
+        "current_league": "Spain (La Liga)",
+        "previous_club": null,
+        "transfer_fee_eur": null,
+        "fee_confirmed": false,
+        "source_url": "https://www.the-star.co.ke/sports/football/2026-01-30-kenyan-footballers-break-into-europe-sichenje-ochieng-wanjala-lead-the-way",
+        "notes": "Named on the bench, awaiting debut per source; fee not stated."
+      },
+      {
+        "player_name": "Suleiman Okwaro",
+        "position": null,
+        "current_club": "Stade de Reims",
+        "current_league": "France (Ligue 1)",
+        "previous_club": "Nairobi United",
+        "transfer_fee_eur": null,
+        "fee_confirmed": false,
+        "source_url": "https://www.the-star.co.ke/sports/football/2026-01-30-kenyan-footballers-break-into-europe-sichenje-ochieng-wanjala-lead-the-way",
+        "notes": "Six-month loan with a four-year permanent contract agreed per source; fee not stated."
+      },
+      {
+        "player_name": "Amos Wanjala",
+        "position": "Centre-back",
+        "current_club": "Valencia CF (Mestalla academy)",
+        "current_league": "Spain (academy)",
+        "previous_club": null,
+        "transfer_fee_eur": null,
+        "fee_confirmed": false,
+        "source_url": "https://www.the-star.co.ke/sports/football/2026-01-30-kenyan-footballers-break-into-europe-sichenje-ochieng-wanjala-lead-the-way",
+        "notes": "Age ~19 per source; academy move, not a first-team transfer fee."
+      }
+    ],
+    "MWI": [
+      {
+        "player_name": "John Banda",
+        "position": "Midfielder",
+        "current_club": "UD Songo",
+        "current_league": "Mozambique",
+        "previous_club": null,
+        "transfer_fee_eur": null,
+        "fee_confirmed": false,
+        "source_url": "https://www.nyasatimes.com/malawi-footballers-playing-abroad-in-surprising-places/",
+        "notes": "Fee not stated in source."
+      },
+      {
+        "player_name": "Schumacher Kuwali",
+        "position": "Midfielder",
+        "current_club": "UD Songo",
+        "current_league": "Mozambique",
+        "previous_club": null,
+        "transfer_fee_eur": null,
+        "fee_confirmed": false,
+        "source_url": "https://www.nyasatimes.com/malawi-footballers-playing-abroad-in-surprising-places/",
+        "notes": "Fee not stated in source."
+      },
+      {
+        "player_name": "Charles Petro",
+        "position": "Defender",
+        "current_club": "Sheriff Tiraspol",
+        "current_league": "Moldova",
+        "previous_club": null,
+        "transfer_fee_eur": null,
+        "fee_confirmed": false,
+        "source_url": "https://www.nyasatimes.com/malawi-footballers-playing-abroad-in-surprising-places/",
+        "notes": "Described by the source as the furthest-flung Malawian player abroad; has represented The Flames in FIFA World Cup qualifiers; fee not stated."
+      }
+    ]
+  },
+  "player_counts": {
+    "ZWE": 4,
+    "KEN": 4,
+    "MWI": 3
+  },
+  "confirmed_fee_count": 1,
+  "generalization_warning": "These are named individual players, illustrative only - not a sample large enough to generalize about Zimbabwe, Kenya, or Malawi's football export economy. None of the three appear in CIES's aggregate expatriate tracking. Only 1 of 11 listed transfers has a publicly reported fee; every other fee field is null, not estimated."
+}
