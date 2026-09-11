@@ -1,11 +1,13 @@
 name: Deploy Pages
 
 # Publishes the repo to GitHub Pages via Actions (not the classic "deploy
-# from branch" method, which only supports /root or /docs — this repo's
-# frontend lives in /frontend and reads ../data/processed/*.json, so the
-# whole repo is published as-is and the dashboard is reached at
-# https://<user>.github.io/<repo>/frontend/ — this preserves the exact
-# relative paths already verified locally, no path rewriting needed.
+# from branch" method, which only supports /root or /docs — this repo has
+# two frontends, /frontend (phase one) and /football/frontend (phase two),
+# each reading its own ../data/processed/*.json, so the whole repo is
+# published as-is and each dashboard is reached at
+# https://<user>.github.io/<repo>/frontend/ and .../football/frontend/ —
+# this preserves the exact relative paths already verified locally, no path
+# rewriting needed.
 #
 # One-time setup required in the GitHub UI: Settings -> Pages -> Source:
 # "GitHub Actions" (not "Deploy from a branch").

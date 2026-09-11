@@ -128,11 +128,13 @@ pytest tests/ -v
 - No monthly inflation series (see Known simplifications).
 - Kenya and Malawi have no parallel-market FX field populated — not because it doesn't matter, but because no reliable programmatic source was found for either during methodology research.
 
-## Phase Two — African Football Transfer Economy Model (in progress)
+## Phase Two — African Football Transfer Economy Model
 
-**Status: data pipeline built and tested; no frontend yet.** This section will be expanded as phase two progresses — see `/methodology.md` in the project for the full approved methodology and the source-verification trail behind every decision below.
+**Status: data pipeline and frontend built and tested.** See `/methodology.md` in the project for the full approved methodology and the source-verification trail behind every decision below.
 
-Lives in `football/`, mirroring this repo's own architecture: `football/raw/manual/*.csv` (cited, dated) → `football/scripts/process.py` → `football/data/processed/*.json`. Same non-negotiables as phase one: no fabricated numbers, no silent failure, every manual figure sourced and dated.
+Lives in `football/`, mirroring this repo's own architecture: `football/raw/manual/*.csv` (cited, dated) → `football/scripts/process.py` → `football/data/processed/*.json` → `football/frontend/` (reads JSON only). Same non-negotiables as phase one: no fabricated numbers, no silent failure, every manual figure sourced and dated.
+
+The dashboard is reachable at `https://tendaiishechikoto-sudo.github.io/sovereign-risk-lab/football/frontend/` once GitHub Pages has deployed (same Actions-based deploy as phase one — see below). It deliberately reuses phase one's `frontend/style.css` rather than forking a copy (one design system for the whole lab); football-only styles and a five-country categorical palette (Nigeria/Ghana/Senegal/Côte d'Ivoire/Cameroon) are appended in `football/frontend/style.css`, loaded second. Each dashboard links to the other in its header.
 
 **What it actually measures right now:** a **Football Export Footprint Index (FEFI)** — expatriate player volume (2020–2025), sourced from CIES Football Observatory Monthly Report 100 — for the five African nations that report gives a real, sourced figure for: Nigeria, Ghana, Senegal, Côte d'Ivoire, Cameroon. Zimbabwe, Kenya, and Malawi are not tracked by CIES at all; rather than score them as zero, they're covered separately through named case-study transfers (real players, real clubs, one real transfer fee — Collins Sichenje's €1.9m move to Charlton Athletic) and World Bank GDP/remittance context, with an explicit statement that no aggregate transfer-income series exists for them.
 
@@ -149,7 +151,7 @@ python scripts/process.py         # full pipeline (needs network access to world
 pytest tests/ -v                  # 10 tests, all offline
 ```
 
-**Next steps:** a frontend panel reading `football/data/processed/*.json`, and broadening FEFI's country coverage or destination-concentration data if a fuller source is found.
+**Next steps:** broadening FEFI's country coverage or destination-concentration data if a fuller source is found; a `refresh-football-data.yml` run against real GitHub Actions network access (the World Bank comparator pull is blocked in this project's development sandbox, not on Actions runners — see `/methodology.md`).
 
 ## License
 

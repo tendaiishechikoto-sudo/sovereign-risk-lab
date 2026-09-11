@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sovereign Risk Lab — African Football Transfer Economy</title>
+<meta name="description" content="Football Export Footprint Index (FEFI) for five African nations, plus how Zimbabwe, Kenya, and Malawi show up in the same economy, built on cited CIES/FIFA/World Bank data.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%236a4fd1'/%3E%3Cpath d='M22 68 L40 46 L56 58 L78 30' stroke='white' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../frontend/style.css">
+<!-- Phase two deliberately reuses phase one's stylesheet rather than forking
+     a copy: same lab, same design system, one source of truth for the visual
+     language. Football-only classes/tokens are appended to that file, not
+     duplicated here. -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="page-header">
+  <div class="header-inner">
+    <div class="header-titles">
+      <p class="eyebrow">Sovereign Risk Lab · Phase Two</p>
+      <h1>African Football Transfer Economy Model</h1>
+      <p class="subtitle">Nigeria · Ghana · Senegal · Côte d'Ivoire · Cameroon — the five nations with a verified, sourced footprint in Europe's football export market. Zimbabwe, Kenya, and Malawi, the countries this lab is built around, aren't tracked in that data at all — shown instead through named case studies and economic context. See <a href="#methodology">methodology</a> for why.</p>
+    </div>
+    <div class="header-meta" id="header-meta" aria-live="polite">
+      <!-- populated by script.js: last-refreshed timestamp, data-mode badge -->
+    </div>
+  </div>
+  <div class="header-nav">
+    <a href="../../frontend/index.html">← Phase One: Currency &amp; Inflation Risk Model</a>
+  </div>
+</header>
+
+<main id="app">
+
+  <section id="data-state-banner" class="banner" hidden></section>
+
+  <section class="section" aria-labelledby="fefi-heading">
+    <h2 id="fefi-heading" class="section-title">Football Export Footprint Index (FEFI)</h2>
+    <p class="section-note">
+      <span class="badge badge-sample" id="fefi-scope-badge">Single-component index</span>
+      Normalized 0–100 measure of total CIES-tracked expatriate players, 2020–2025. This is an export-<em>volume</em> measure, not a rounded "footprint" score — two originally-planned components (value capture, destination concentration) were dropped after source verification found no comparable country-level data. See <a href="#methodology">methodology</a>.
+    </p>
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <h3 class="section-title" style="font-size:15px;margin:0;">FEFI composite by country</h3>
+        <button class="table-toggle" data-toggle-table="fefi" aria-expanded="false">View as table</button>
+      </div>
+      <div id="fefi-chart" class="chart-body"></div>
+      <div id="fefi-table" class="table-body" hidden></div>
+    </div>
+  </section>
+
+  <section class="section two-col" aria-labelledby="nigeria-heading">
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <h2 id="nigeria-heading" class="section-title">Nigeria: expatriate trend, 2020–2025</h2>
+      </div>
+      <p class="section-note">Nigeria is the only FEFI country CIES Monthly Report 100 breaks out at this level of detail.</p>
+      <div id="nigeria-trend-chart" class="chart-body"></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <h2 id="nigeria-dest-heading" class="section-title">Nigeria's top 5 destinations</h2>
+      </div>
+      <p class="section-note" id="nigeria-big5-note"></p>
+      <div id="nigeria-dest-chart" class="chart-body"></div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="case-study-heading">
+    <h2 id="case-study-heading" class="section-title">Zimbabwe, Kenya &amp; Malawi: named case-study transfers</h2>
+    <div id="case-study-warning" class="banner banner-info"></div>
+    <div id="case-study-cards" class="case-study-grid"></div>
+  </section>
+
+  <section class="section two-col" aria-labelledby="comparator-heading">
+    <div class="chart-card">
+      <h2 id="comparator-heading" class="section-title">Economic scale for context</h2>
+      <p class="section-note">World Bank GDP and personal remittances, latest available year. Shown for scale only — no aggregate football transfer-income series exists for these three countries in any source found, so this is <strong>not</strong> a computed "transfer income as % of GDP" ratio.</p>
+      <div id="comparator-cards" class="comparator-grid"></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-card-head">
+        <h2 class="section-title">Value capture vs. leakage: what's actually measurable</h2>
+        <span class="badge badge-sample">Not scored</span>
+      </div>
+      <p class="section-note">The originally-approved methodology planned to quantify how much transfer value African nations capture vs. lose to intermediaries. No current, country-level data exists to do that honestly — these are the real figures found, kept as cited context instead of forced into an index.</p>
+      <div id="value-capture-list" class="value-capture-list"></div>
+    </div>
+  </section>
+
+  <section class="section" id="methodology" aria-labelledby="methodology-heading">
+    <h2 id="methodology-heading" class="section-title">Methodology &amp; data provenance</h2>
+    <div id="methodology-body" class="methodology-body"></div>
+  </section>
+
+</main>
+
+<footer class="page-footer">
+  <p>Built by Tendaiishe Chikoto · <a href="https://github.com/tendaiishechikoto-sudo/sovereign-risk-lab" target="_blank" rel="noopener">source on GitHub</a> · data from CIES Football Observatory, FIFA, World Bank, and cited press coverage.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
