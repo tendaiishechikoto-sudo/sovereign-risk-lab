@@ -1,0 +1,100 @@
+/* Sovereign Risk Lab — phase two (football) additions.
+   Loaded after ../../frontend/style.css, which supplies the shared design
+   system (tokens, .page-header, .chart-card, .banner, .badge, tables, the
+   SVG chart engine's chrome). This file only adds what phase two needs on
+   top of that: a 5-country categorical palette for the FEFI nations (kept
+   distinct from phase one's ZWE/KEN/MWI slots, which this page reuses as-is
+   for its own case-study/comparator sections — same three countries, same
+   colors, across both phases, deliberately) plus the football-specific
+   layout classes below. */
+
+:root {
+  --series-nga: #6a4fd1; /* violet — Nigeria, the featured case study */
+  --series-gha: #b8891f; /* amber */
+  --series-sen: #1f9d8a; /* teal */
+  --series-civ: #c94f7c; /* rose */
+  --series-cmr: #4f8f2a; /* olive */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    --series-nga: #8a72e6;
+    --series-gha: #d1a52a;
+    --series-sen: #2ab6a0;
+    --series-civ: #e06a99;
+    --series-cmr: #6db83c;
+  }
+}
+
+:root[data-theme="dark"] {
+  --series-nga: #8a72e6;
+  --series-gha: #d1a52a;
+  --series-sen: #2ab6a0;
+  --series-civ: #e06a99;
+  --series-cmr: #6db83c;
+}
+
+.header-nav a:hover { color: var(--series-nga); }
+
+.banner-info {
+  border-color: var(--border);
+  background: var(--surface-1);
+}
+
+/* Case-study transfer cards (Zimbabwe/Kenya/Malawi) */
+.case-study-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 16px;
+}
+@media (max-width: 900px) { .case-study-grid { grid-template-columns: 1fr; } }
+.case-study-country { display: flex; flex-direction: column; gap: 10px; }
+.case-study-country-title {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.case-study-country-title .kpi-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.player-card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 13px;
+}
+.player-card .player-name { font-weight: 600; }
+.player-card .player-meta { color: var(--text-secondary); margin-top: 2px; }
+.player-card .player-fee { margin-top: 6px; font-variant-numeric: tabular-nums; }
+.player-card .player-fee.confirmed { color: var(--success-text); font-weight: 600; }
+.player-card .player-fee.unconfirmed { color: var(--text-muted); font-style: italic; }
+.player-card .player-notes { color: var(--text-muted); font-size: 12px; margin-top: 6px; }
+.player-card a { color: inherit; text-decoration: underline; font-size: 12px; }
+
+/* Comparator (GDP/remittances) stat cards */
+.comparator-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 12px; }
+@media (max-width: 720px) { .comparator-grid { grid-template-columns: 1fr; } }
+.comparator-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 14px 16px;
+}
+.comparator-card .comp-country { font-weight: 600; display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.comparator-card .comp-stat { font-size: 12px; color: var(--text-secondary); margin-top: 6px; }
+.comparator-card .comp-value { font-size: 20px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.comparator-card .comp-unavailable { color: var(--text-muted); font-style: italic; font-size: 13px; }
+
+/* Value-capture context entries (narrative, never scored) */
+.value-capture-list { display: flex; flex-direction: column; gap: 10px; margin-top: 12px; }
+.value-capture-entry {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 13px;
+}
+.value-capture-entry .vc-metric { font-weight: 600; }
+.value-capture-entry .vc-value { font-variant-numeric: tabular-nums; color: var(--text-primary); margin-top: 2px; }
+.value-capture-entry .vc-caveat { color: var(--text-muted); font-size: 12px; margin-top: 4px; }
+.value-capture-entry .vc-source { color: var(--text-muted); font-size: 11px; margin-top: 4px; }
+.value-capture-entry .vc-source a { color: inherit; }
