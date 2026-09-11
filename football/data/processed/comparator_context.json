@@ -1,0 +1,25 @@
+{
+  "countries": {
+    "ZWE": "Zimbabwe",
+    "KEN": "Kenya",
+    "MWI": "Malawi"
+  },
+  "latest_available": {
+    "ZWE": {
+      "gdp_usd": 51215643905.5886,
+      "remittances_usd": null,
+      "year": 2025
+    },
+    "KEN": {
+      "gdp_usd": 135941278878.815,
+      "remittances_usd": null,
+      "year": 2025
+    },
+    "MWI": {
+      "gdp_usd": 14918276698.303,
+      "remittances_usd": null,
+      "year": 2025
+    }
+  },
+  "note": "GDP and remittances are World Bank figures, shown for economic scale only. No aggregate, country-of-origin football transfer income series exists in any source found for these three countries (or, for that matter, for most African exporting nations) - so this is NOT a computed 'transfer income as % of GDP' ratio. Comparing named case-study transfer fees (case_study_transfers.json) against these figures is left to the reader, deliberately, rather than turned into a single invented ratio."
+}

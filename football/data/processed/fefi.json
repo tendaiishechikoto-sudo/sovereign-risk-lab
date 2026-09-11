@@ -1,0 +1,68 @@
+{
+  "countries": {
+    "NGA": "Nigeria",
+    "GHA": "Ghana",
+    "SEN": "Senegal",
+    "CIV": "Cote d'Ivoire",
+    "CMR": "Cameroon"
+  },
+  "raw_expatriate_totals_2020_2025": {
+    "NGA": 926.0,
+    "GHA": 677.0,
+    "SEN": 511.0,
+    "CIV": 484.0,
+    "CMR": 327.0
+  },
+  "normalized_components_0_100": {
+    "NGA": {
+      "expatriate_volume": 100.0
+    },
+    "GHA": {
+      "expatriate_volume": 58.43071786310517
+    },
+    "SEN": {
+      "expatriate_volume": 30.71786310517529
+    },
+    "CIV": {
+      "expatriate_volume": 26.21035058430718
+    },
+    "CMR": {
+      "expatriate_volume": 0.0
+    }
+  },
+  "fefi_composite_0_100": {
+    "NGA": 100.0,
+    "GHA": 58.43,
+    "SEN": 30.72,
+    "CIV": 26.21,
+    "CMR": 0.0
+  },
+  "components_used_per_country": {
+    "NGA": [
+      "expatriate_volume"
+    ],
+    "GHA": [
+      "expatriate_volume"
+    ],
+    "SEN": [
+      "expatriate_volume"
+    ],
+    "CIV": [
+      "expatriate_volume"
+    ],
+    "CMR": [
+      "expatriate_volume"
+    ]
+  },
+  "weights": {
+    "expatriate_volume": 1.0
+  },
+  "ranking_highest_footprint_first": [
+    "NGA",
+    "GHA",
+    "SEN",
+    "CIV",
+    "CMR"
+  ],
+  "scope_note": "Covers only the five African nations with a verified, sourced expatriate count in CIES Football Observatory Monthly Report 100 (2020-2025). Zimbabwe, Kenya, and Malawi are not tracked by CIES at all and are deliberately excluded from this index rather than scored as zero - see comparator_context.json and case_study_transfers.json for how they are covered instead."
+}

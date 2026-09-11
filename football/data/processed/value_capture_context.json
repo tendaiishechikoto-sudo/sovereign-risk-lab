@@ -1,0 +1,93 @@
+{
+  "entries": [
+    {
+      "metric": "Global club agent/intermediary service fees (men's professional football)",
+      "scope": "Global",
+      "value": 1366.8,
+      "unit": "USD million",
+      "year": 2025,
+      "source": "FIFA Football Agents Report 2025",
+      "source_url": "https://digitalhub.fifa.com/m/1229fa2915af0144/original/Football-Agents-Report-2025.pdf",
+      "date_retrieved": "2026-09-09",
+      "caveat": "Highest-ever annual total; +90% vs 2024's USD 710.4m; 2020 was USD 497.5m; 2016 was USD 386.8m."
+    },
+    {
+      "metric": "Agent fees - UEFA confederation share",
+      "scope": "UEFA",
+      "value": 842.3,
+      "unit": "USD million",
+      "year": 2025,
+      "source": "FIFA Football Agents Report 2025",
+      "source_url": "https://digitalhub.fifa.com/m/1229fa2915af0144/original/Football-Agents-Report-2025.pdf",
+      "date_retrieved": "2026-09-09",
+      "caveat": "89.0% of the global total."
+    },
+    {
+      "metric": "Agent fees - AFC confederation share",
+      "scope": "AFC",
+      "value": 87.0,
+      "unit": "USD million",
+      "year": 2025,
+      "source": "FIFA Football Agents Report 2025",
+      "source_url": "https://digitalhub.fifa.com/m/1229fa2915af0144/original/Football-Agents-Report-2025.pdf",
+      "date_retrieved": "2026-09-09",
+      "caveat": null
+    },
+    {
+      "metric": "Agent fees - CONMEBOL confederation share",
+      "scope": "CONMEBOL",
+      "value": 17.3,
+      "unit": "USD million",
+      "year": 2025,
+      "source": "FIFA Football Agents Report 2025",
+      "source_url": "https://digitalhub.fifa.com/m/1229fa2915af0144/original/Football-Agents-Report-2025.pdf",
+      "date_retrieved": "2026-09-09",
+      "caveat": null
+    },
+    {
+      "metric": "Agent fees - Concacaf confederation share",
+      "scope": "Concacaf",
+      "value": 15.3,
+      "unit": "USD million",
+      "year": 2025,
+      "source": "FIFA Football Agents Report 2025",
+      "source_url": "https://digitalhub.fifa.com/m/1229fa2915af0144/original/Football-Agents-Report-2025.pdf",
+      "date_retrieved": "2026-09-09",
+      "caveat": null
+    },
+    {
+      "metric": "Agent fees - CAF confederation share",
+      "scope": "CAF",
+      "value": 0.0703,
+      "unit": "USD million",
+      "year": 2025,
+      "source": "FIFA Football Agents Report 2025",
+      "source_url": "https://digitalhub.fifa.com/m/1229fa2915af0144/original/Football-Agents-Report-2025.pdf",
+      "date_retrieved": "2026-09-09",
+      "caveat": "Only 13-14 transfers involved. This figure appears to track fees paid by CAF-side ENGAGING (buying) clubs, not commission taken from departing African players - the wrong side of the transaction for an export-leakage metric, and far too small a sample to index on regardless. Reported here for transparency, not used in any computed metric."
+    },
+    {
+      "metric": "Solidarity contributions actually paid vs. owed (compliance rate)",
+      "scope": "Global",
+      "value": 19.3,
+      "unit": "% of amount owed",
+      "year": 2018,
+      "source": "Asser International Sports Law Blog (2020) citing FIFA Global Transfer Market Report 2019",
+      "source_url": "https://www.asser.nl/SportsLaw/Blog/post/revisiting-fifa-s-training-compensation-and-solidarity-mechanism-part-2-the-african-reality-by-rhys-lenarduzzi",
+      "date_retrieved": "2026-09-09",
+      "caveat": "USD 67.7m paid of USD 351.5m owed globally. Six years old and global, not per-country or current - the only concrete solidarity-mechanism compliance figure found during research. Not used in any computed metric."
+    },
+    {
+      "metric": "CAF solidarity-contribution disputes filed",
+      "scope": "CAF",
+      "value": 144.0,
+      "unit": "count",
+      "year": 2019,
+      "source": "Asser International Sports Law Blog (2020) citing FIFA Players' Status Department Report",
+      "source_url": "https://www.asser.nl/SportsLaw/Blog/post/revisiting-fifa-s-training-compensation-and-solidarity-mechanism-part-2-the-african-reality-by-rhys-lenarduzzi",
+      "date_retrieved": "2026-09-09",
+      "caveat": "vs. 304 for CONMEBOL, despite CAF-to-UEFA transfer volume (581) being a meaningful share of within-UEFA volume (8108). Author's interpretation: African federations/clubs either lack awareness of these rights or cannot afford to pursue remedies. Illustrative context only."
+    }
+  ],
+  "not_an_index": "None of these figures feed the FEFI composite. The originally-approved methodology planned to score 'value captured vs. leaked' quantitatively (agent commissions, solidarity/training compensation), but no current, country-level data exists to do that honestly - see /methodology.md 'Source verification findings'. These entries are the real numbers found, kept as cited, dated context instead of being forced into a score."
+}
