@@ -1,6 +1,6 @@
 {
-  "run_started_at_utc": "2026-09-14T06:06:58.480896+00:00",
-  "run_finished_at_utc": "2026-09-14T06:07:00.062386+00:00",
+  "run_started_at_utc": "2026-09-21T06:06:50.982250+00:00",
+  "run_finished_at_utc": "2026-09-21T06:06:53.085031+00:00",
   "countries": {
     "ZWE": "Zimbabwe",
     "KEN": "Kenya",
@@ -24,8 +24,8 @@
     "ZWE: 'policy_rate_volatility' excluded from composite - Only 1 curated policy rate decision(s) on file for this country - not enough to compute a meaningful volatility figure. See raw/manual/policy_rate_decisions.csv.",
     "KEN: 'fx_spread' excluded from composite - No programmatic parallel-market FX source identified for this country during methodology research; not fabricated.",
     "MWI: 'fx_spread' excluded from composite - No programmatic parallel-market FX source identified for this country during methodology research; not fabricated.",
-    "IMF DataMapper cross-check unavailable this run (supplementary series only, not used in the CSRI or panel data): Unexpected HTTP 403 fetching https://www.imf.org/external/datamapper/api/v1/PCPIPCH/ZWE. Body (truncated): <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;imf&#46;org&#47;external&#47;datamapper&#47;api&#47;v1&#47;PCPIPCH&#47;ZWE\" on this server.<P>\nReference&#32;&#35;18&#46;12422417&#46;1789366019&#46;22e4c61\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;12422417&#46;1789366019&#46;22e4c61</P>\n</BODY>\n</HTML>\n",
-    "Zimbabwe FX snapshot (ZimRate) unavailable this run - fx_spread excluded from the CSRI for Zimbabwe and renormalized, not fabricated: Unexpected HTTP 403 fetching https://zimrate.com/api/rates/latest. Body (truncated): <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-enYhdLgwdDkDYE6iQJ8jKy&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-s"
+    "IMF DataMapper cross-check unavailable this run (supplementary series only, not used in the CSRI or panel data): Unexpected HTTP 403 fetching https://www.imf.org/external/datamapper/api/v1/PCPIPCH/ZWE. Body (truncated): <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;imf&#46;org&#47;external&#47;datamapper&#47;api&#47;v1&#47;PCPIPCH&#47;ZWE\" on this server.<P>\nReference&#32;&#35;18&#46;a51e3f17&#46;1789970812&#46;8895407c\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;a51e3f17&#46;1789970812&#46;8895407c</P>\n</BODY>\n</HTML>\n",
+    "Zimbabwe FX snapshot (ZimRate) unavailable this run - fx_spread excluded from the CSRI for Zimbabwe and renormalized, not fabricated: Unexpected HTTP 403 fetching https://zimrate.com/api/rates/latest. Body (truncated): <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-GbAiuUZWpxTEICBrLJf6ko&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-s"
   ],
   "sources": {
     "world_bank": "https://api.worldbank.org/v2 - World Development Indicators",
