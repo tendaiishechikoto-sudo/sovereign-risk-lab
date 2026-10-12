@@ -10,7 +10,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2025",
-    "value": 4.06912878540729,
+    "value": 4.0693076061457,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -26,7 +26,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2024",
-    "value": 4.48978854243448,
+    "value": 4.48978854243447,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -58,7 +58,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2022",
-    "value": 7.65986268272224,
+    "value": 7.65986268272223,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -122,7 +122,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2018",
-    "value": 4.6898064677633,
+    "value": 4.68980646776329,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -138,7 +138,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2017",
-    "value": 8.00564967709945,
+    "value": 8.00564967709944,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -154,7 +154,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2016",
-    "value": 6.29724953814625,
+    "value": 6.29724953814624,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -170,7 +170,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2015",
-    "value": 6.58215429284779,
+    "value": 6.58215429284778,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -250,7 +250,7 @@
     },
     "countryiso3code": "MWI",
     "date": "2021",
-    "value": 9.33014410835212,
+    "value": 9.33014410835211,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -266,7 +266,7 @@
     },
     "countryiso3code": "MWI",
     "date": "2020",
-    "value": 8.62551469650552,
+    "value": 8.62551469650551,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -282,7 +282,7 @@
     },
     "countryiso3code": "MWI",
     "date": "2019",
-    "value": 9.3708360560567,
+    "value": 9.37083605605669,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -330,7 +330,7 @@
     },
     "countryiso3code": "MWI",
     "date": "2016",
-    "value": 21.7111132136499,
+    "value": 21.7111132136498,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -346,7 +346,7 @@
     },
     "countryiso3code": "MWI",
     "date": "2015",
-    "value": 21.8673475542553,
+    "value": 21.8673475542552,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -426,7 +426,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2021",
-    "value": 98.5461050920624,
+    "value": 98.5461050920623,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -442,7 +442,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2020",
-    "value": 557.201817362051,
+    "value": 557.20181736205,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -458,7 +458,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2019",
-    "value": 255.304990757856,
+    "value": 255.304990757855,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -522,7 +522,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2015",
-    "value": -2.43096842383404,
+    "value": -2.43096842383403,
     "unit": "",
     "obs_status": "",
     "decimal": 1

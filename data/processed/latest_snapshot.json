@@ -7,7 +7,7 @@
   "raw_components": {
     "ZWE": {
       "inflation_cpi_pct": 104.705170628667,
-      "inflation_volatility_cv": 1.049783359082199,
+      "inflation_volatility_cv": 1.0497833590821988,
       "reserves_months_imports": 0.704318586792695,
       "external_debt_gdp_pct": 34.64577842508877,
       "fx_spread_pct": null,
@@ -15,9 +15,9 @@
       "imf_program_flag": 55.0
     },
     "KEN": {
-      "inflation_cpi_pct": 4.06912878540729,
-      "inflation_volatility_cv": 0.28346587165600107,
-      "reserves_months_imports": null,
+      "inflation_cpi_pct": 4.0693076061457,
+      "inflation_volatility_cv": 0.2834557239506044,
+      "reserves_months_imports": 4.63154845831117,
       "external_debt_gdp_pct": null,
       "fx_spread_pct": null,
       "policy_rate_volatility": 2.4748737341529163,
@@ -25,7 +25,7 @@
     },
     "MWI": {
       "inflation_cpi_pct": 28.3702565330281,
-      "inflation_volatility_cv": 0.3815985587480742,
+      "inflation_volatility_cv": 0.38159855874807413,
       "reserves_months_imports": null,
       "external_debt_gdp_pct": null,
       "fx_spread_pct": null,
@@ -36,24 +36,25 @@
   "normalized_components_0_100": {
     "ZWE": {
       "inflation": 0.0,
-      "reserve_adequacy": 50.0,
+      "reserve_adequacy": 0.0,
       "external_debt": 50.0,
       "imf_program_flag": 100.0
     },
     "KEN": {
       "inflation": 100.0,
+      "reserve_adequacy": 100.0,
       "policy_rate_volatility": 0.0,
       "imf_program_flag": 40.0
     },
     "MWI": {
-      "inflation": 80.75544556398079,
+      "inflation": 80.75506474364057,
       "policy_rate_volatility": 100.0,
       "imf_program_flag": 0.0
     }
   },
   "csri_composite_0_100": {
-    "ZWE": 39.29,
-    "KEN": 64.44,
+    "ZWE": 25.0,
+    "KEN": 75.38,
     "MWI": 67.09
   },
   "components_used_per_country": {
@@ -66,7 +67,8 @@
     "KEN": [
       "imf_program_flag",
       "inflation",
-      "policy_rate_volatility"
+      "policy_rate_volatility",
+      "reserve_adequacy"
     ],
     "MWI": [
       "imf_program_flag",

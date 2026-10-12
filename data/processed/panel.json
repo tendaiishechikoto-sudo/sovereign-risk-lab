@@ -5,9 +5,9 @@
     "year": 2015,
     "external_debt_usd": 19783760501.7,
     "gdp_usd": 70120446896.8359,
-    "inflation_cpi_pct": 6.58215429284779,
+    "inflation_cpi_pct": 6.58215429284778,
     "reserves_months_imports": 4.85820155529876,
-    "reserves_usd": 7514864907.05536,
+    "reserves_usd": 7514864907.05535,
     "external_debt_gdp_pct": 28.21396807525583,
     "inflation_volatility_cv": null
   },
@@ -17,11 +17,11 @@
     "year": 2016,
     "external_debt_usd": 21057671043.3,
     "gdp_usd": 74815144163.8931,
-    "inflation_cpi_pct": 6.29724953814625,
-    "reserves_months_imports": 5.24445206958815,
+    "inflation_cpi_pct": 6.29724953814624,
+    "reserves_months_imports": 5.24445206958818,
     "reserves_usd": 7553884912.6237,
     "external_debt_gdp_pct": 28.146268083331112,
-    "inflation_volatility_cv": 0.03128375919962125
+    "inflation_volatility_cv": 0.0312837591996213
   },
   {
     "country_iso3": "KEN",
@@ -29,11 +29,11 @@
     "year": 2017,
     "external_debt_usd": 26951349499.4,
     "gdp_usd": 82036510877.2599,
-    "inflation_cpi_pct": 8.00564967709945,
+    "inflation_cpi_pct": 8.00564967709944,
     "reserves_months_imports": 4.22919808384001,
     "reserves_usd": 7325420063.33911,
     "external_debt_gdp_pct": 32.8528714973308,
-    "inflation_volatility_cv": 0.13147021260595637
+    "inflation_volatility_cv": 0.13147021260595648
   },
   {
     "country_iso3": "KEN",
@@ -41,11 +41,11 @@
     "year": 2018,
     "external_debt_usd": 31433802015.7,
     "gdp_usd": 92202979985.2863,
-    "inflation_cpi_pct": 4.6898064677633,
-    "reserves_months_imports": 4.50003970094331,
+    "inflation_cpi_pct": 4.68980646776329,
+    "reserves_months_imports": 4.50003970094333,
     "reserves_usd": 8164380806.22987,
     "external_debt_gdp_pct": 34.09195887238806,
-    "inflation_volatility_cv": 0.2126638901511718
+    "inflation_volatility_cv": 0.2126638901511721
   },
   {
     "country_iso3": "KEN",
@@ -54,10 +54,10 @@
     "external_debt_usd": 34970099589.9,
     "gdp_usd": 100378436207.371,
     "inflation_cpi_pct": 5.23963795764792,
-    "reserves_months_imports": 4.9206748709835,
+    "reserves_months_imports": 4.92067487098351,
     "reserves_usd": 9115806005.21186,
     "external_debt_gdp_pct": 34.83825900381189,
-    "inflation_volatility_cv": 0.20861727766761126
+    "inflation_volatility_cv": 0.2086172776676113
   },
   {
     "country_iso3": "KEN",
@@ -66,10 +66,10 @@
     "external_debt_usd": 38038451074.1,
     "gdp_usd": 100657505750.545,
     "inflation_cpi_pct": 5.40516207933392,
-    "reserves_months_imports": 5.00168160921731,
+    "reserves_months_imports": 5.00168160921733,
     "reserves_usd": 8297263558.90541,
     "external_debt_gdp_pct": 37.78997978389112,
-    "inflation_volatility_cv": 0.2188831091644091
+    "inflation_volatility_cv": 0.21888310916440892
   },
   {
     "country_iso3": "KEN",
@@ -78,10 +78,10 @@
     "external_debt_usd": 41219100011.5,
     "gdp_usd": 109703658904.994,
     "inflation_cpi_pct": 6.10793603659176,
-    "reserves_months_imports": 4.42483155112942,
+    "reserves_months_imports": 4.42483155112943,
     "reserves_usd": 9490896580.9297,
     "external_debt_gdp_pct": 37.57313149162758,
-    "inflation_volatility_cv": 0.21846156661007093
+    "inflation_volatility_cv": 0.2184615666100708
   },
   {
     "country_iso3": "KEN",
@@ -89,11 +89,11 @@
     "year": 2022,
     "external_debt_usd": 41556299639.8,
     "gdp_usd": 114448978152.637,
-    "inflation_cpi_pct": 7.65986268272224,
-    "reserves_months_imports": 3.2163509377815,
+    "inflation_cpi_pct": 7.65986268272223,
+    "reserves_months_imports": 3.21635093778152,
     "reserves_usd": 7969488013.00049,
     "external_debt_gdp_pct": 36.30989136869154,
-    "inflation_volatility_cv": 0.19690939530990936
+    "inflation_volatility_cv": 0.19690939530990934
   },
   {
     "country_iso3": "KEN",
@@ -102,10 +102,10 @@
     "external_debt_usd": 42910026054.2,
     "gdp_usd": 107500884685.013,
     "inflation_cpi_pct": 7.67139634029402,
-    "reserves_months_imports": 3.13876976697341,
-    "reserves_usd": 7341776189.84466,
+    "reserves_months_imports": 3.12761006601292,
+    "reserves_usd": 7341776189.84465,
     "external_debt_gdp_pct": 39.91597481260747,
-    "inflation_volatility_cv": 0.18478384986663962
+    "inflation_volatility_cv": 0.18478384986663932
   },
   {
     "country_iso3": "KEN",
@@ -113,11 +113,11 @@
     "year": 2024,
     "external_debt_usd": 42886127218.3,
     "gdp_usd": 120397537849.826,
-    "inflation_cpi_pct": 4.48978854243448,
-    "reserves_months_imports": 4.02886150176484,
+    "inflation_cpi_pct": 4.48978854243447,
+    "reserves_months_imports": 3.98581728838764,
     "reserves_usd": 10066607177.351,
     "external_debt_gdp_pct": 35.620435421023835,
-    "inflation_volatility_cv": 0.22338338783721856
+    "inflation_volatility_cv": 0.2233833878372189
   },
   {
     "country_iso3": "KEN",
@@ -125,11 +125,11 @@
     "year": 2025,
     "external_debt_usd": null,
     "gdp_usd": 135941278878.815,
-    "inflation_cpi_pct": 4.06912878540729,
-    "reserves_months_imports": null,
-    "reserves_usd": 12394288741.4979,
+    "inflation_cpi_pct": 4.0693076061457,
+    "reserves_months_imports": 4.63154845831117,
+    "reserves_usd": 12394288741.4978,
     "external_debt_gdp_pct": null,
-    "inflation_volatility_cv": 0.28346587165600107
+    "inflation_volatility_cv": 0.2834557239506044
   },
   {
     "country_iso3": "MWI",
@@ -137,9 +137,9 @@
     "year": 2015,
     "external_debt_usd": 1722514630.8,
     "gdp_usd": 9219474379.31534,
-    "inflation_cpi_pct": 21.8673475542553,
+    "inflation_cpi_pct": 21.8673475542552,
     "reserves_months_imports": 2.98953546845057,
-    "reserves_usd": 681580478.271052,
+    "reserves_usd": 681580478.271051,
     "external_debt_gdp_pct": 18.683436386184933,
     "inflation_volatility_cv": null
   },
@@ -149,11 +149,11 @@
     "year": 2016,
     "external_debt_usd": 1848081075.2,
     "gdp_usd": 7909868618.46366,
-    "inflation_cpi_pct": 21.7111132136499,
-    "reserves_months_imports": 2.9264322975848,
-    "reserves_usd": 610774217.598916,
+    "inflation_cpi_pct": 21.7111132136498,
+    "reserves_months_imports": 2.92643229758479,
+    "reserves_usd": 610774217.598915,
     "external_debt_gdp_pct": 23.364244898911537,
-    "inflation_volatility_cv": 0.0050701360144252946
+    "inflation_volatility_cv": 0.005070136014425318
   },
   {
     "country_iso3": "MWI",
@@ -165,7 +165,7 @@
     "reserves_months_imports": 3.00930636178987,
     "reserves_usd": 768401046.225973,
     "external_debt_gdp_pct": 24.17831405657458,
-    "inflation_volatility_cv": 0.32197495419382954
+    "inflation_volatility_cv": 0.32197495419382766
   },
   {
     "country_iso3": "MWI",
@@ -177,7 +177,7 @@
     "reserves_months_imports": 2.75955421753768,
     "reserves_usd": 766154761.931253,
     "external_debt_gdp_pct": 22.934133393590102,
-    "inflation_volatility_cv": 0.33602729736402837
+    "inflation_volatility_cv": 0.3360272973640259
   },
   {
     "country_iso3": "MWI",
@@ -185,11 +185,11 @@
     "year": 2019,
     "external_debt_usd": 2427416965.7,
     "gdp_usd": 11051852712.6142,
-    "inflation_cpi_pct": 9.3708360560567,
+    "inflation_cpi_pct": 9.37083605605669,
     "reserves_months_imports": 2.85784777016507,
-    "reserves_usd": 846839844.266183,
+    "reserves_usd": 846839844.266182,
     "external_debt_gdp_pct": 21.963891745765217,
-    "inflation_volatility_cv": 0.38700447391617154
+    "inflation_volatility_cv": 0.38700447391616927
   },
   {
     "country_iso3": "MWI",
@@ -197,11 +197,11 @@
     "year": 2020,
     "external_debt_usd": 2961709327.2,
     "gdp_usd": 11769313597.8545,
-    "inflation_cpi_pct": 8.62551469650552,
+    "inflation_cpi_pct": 8.62551469650551,
     "reserves_months_imports": 1.91482223577028,
     "reserves_usd": 594498493.623211,
     "external_debt_gdp_pct": 25.1646733904678,
-    "inflation_volatility_cv": 0.41235970918974746
+    "inflation_volatility_cv": 0.41235970918974507
   },
   {
     "country_iso3": "MWI",
@@ -209,11 +209,11 @@
     "year": 2021,
     "external_debt_usd": 3197123056.9,
     "gdp_usd": 12378119199.0839,
-    "inflation_cpi_pct": 9.33014410835212,
+    "inflation_cpi_pct": 9.33014410835211,
     "reserves_months_imports": null,
     "reserves_usd": null,
     "external_debt_gdp_pct": 25.82882750989034,
-    "inflation_volatility_cv": 0.15899460256512132
+    "inflation_volatility_cv": 0.1589946025651216
   },
   {
     "country_iso3": "MWI",
@@ -225,7 +225,7 @@
     "reserves_months_imports": null,
     "reserves_usd": null,
     "external_debt_gdp_pct": 26.87304447014643,
-    "inflation_volatility_cv": 0.4233919172774192
+    "inflation_volatility_cv": 0.4233919172774196
   },
   {
     "country_iso3": "MWI",
@@ -237,7 +237,7 @@
     "reserves_months_imports": null,
     "reserves_usd": null,
     "external_debt_gdp_pct": 26.969782783526057,
-    "inflation_volatility_cv": 0.5885665121142676
+    "inflation_volatility_cv": 0.588566512114268
   },
   {
     "country_iso3": "MWI",
@@ -249,7 +249,7 @@
     "reserves_months_imports": null,
     "reserves_usd": null,
     "external_debt_gdp_pct": 33.09456993209975,
-    "inflation_volatility_cv": 0.542490757864597
+    "inflation_volatility_cv": 0.5424907578645973
   },
   {
     "country_iso3": "MWI",
@@ -261,7 +261,7 @@
     "reserves_months_imports": null,
     "reserves_usd": null,
     "external_debt_gdp_pct": null,
-    "inflation_volatility_cv": 0.3815985587480742
+    "inflation_volatility_cv": 0.38159855874807413
   },
   {
     "country_iso3": "ZWE",
@@ -269,7 +269,7 @@
     "year": 2015,
     "external_debt_usd": 9995059194.1,
     "gdp_usd": 19973250000.0,
-    "inflation_cpi_pct": -2.43096842383404,
+    "inflation_cpi_pct": -2.43096842383403,
     "reserves_months_imports": 0.687604713433443,
     "reserves_usd": 434586085.852928,
     "external_debt_gdp_pct": 50.04222744971399,
@@ -285,7 +285,7 @@
     "reserves_months_imports": 0.741706945426817,
     "reserves_usd": 407193244.098736,
     "external_debt_gdp_pct": 57.47010543332076,
-    "inflation_volatility_cv": 0.3157092600841194
+    "inflation_volatility_cv": 0.3157092600841167
   },
   {
     "country_iso3": "ZWE",
@@ -297,7 +297,7 @@
     "reserves_months_imports": 0.531017617986876,
     "reserves_usd": 292621249.111637,
     "external_debt_gdp_pct": 25.20670822285022,
-    "inflation_volatility_cv": 1.676565919998501
+    "inflation_volatility_cv": 1.6765659199985028
   },
   {
     "country_iso3": "ZWE",
@@ -309,7 +309,7 @@
     "reserves_months_imports": 0.131062982530595,
     "reserves_usd": 86951094.0294849,
     "external_debt_gdp_pct": 38.030515077276014,
-    "inflation_volatility_cv": 3.1785648411752265
+    "inflation_volatility_cv": 3.178564841175221
   },
   {
     "country_iso3": "ZWE",
@@ -317,7 +317,7 @@
     "year": 2019,
     "external_debt_usd": 12540836851.8,
     "gdp_usd": 33360632553.3556,
-    "inflation_cpi_pct": 255.304990757856,
+    "inflation_cpi_pct": 255.304990757855,
     "reserves_months_imports": 0.315495092372553,
     "reserves_usd": 151240506.889991,
     "external_debt_gdp_pct": 37.591723813218195,
@@ -329,11 +329,11 @@
     "year": 2020,
     "external_debt_usd": 13034165720.3,
     "gdp_usd": 31979753644.6558,
-    "inflation_cpi_pct": 557.201817362051,
+    "inflation_cpi_pct": 557.20181736205,
     "reserves_months_imports": 0.0627563301218121,
     "reserves_usd": 33405021.0134395,
     "external_debt_gdp_pct": 40.757555124187654,
-    "inflation_volatility_cv": 1.4905743987332538
+    "inflation_volatility_cv": 1.4905743987332547
   },
   {
     "country_iso3": "ZWE",
@@ -341,11 +341,11 @@
     "year": 2021,
     "external_debt_usd": 14111057739.5,
     "gdp_usd": 41287852523.5016,
-    "inflation_cpi_pct": 98.5461050920624,
+    "inflation_cpi_pct": 98.5461050920623,
     "reserves_months_imports": 1.14822003436593,
     "reserves_usd": 838780244.641997,
     "external_debt_gdp_pct": 34.17726250467446,
-    "inflation_volatility_cv": 1.2572399942244579
+    "inflation_volatility_cv": 1.257239994224458
   },
   {
     "country_iso3": "ZWE",
@@ -357,7 +357,7 @@
     "reserves_months_imports": 0.704318586792695,
     "reserves_usd": 598621573.627058,
     "external_debt_gdp_pct": 34.64577842508877,
-    "inflation_volatility_cv": 1.049783359082199
+    "inflation_volatility_cv": 1.0497833590821988
   },
   {
     "country_iso3": "ZWE",
@@ -369,7 +369,7 @@
     "reserves_months_imports": 0.129140652810182,
     "reserves_usd": 115529709.859095,
     "external_debt_gdp_pct": 40.557043937233466,
-    "inflation_volatility_cv": 0.8457813810628275
+    "inflation_volatility_cv": 0.8457813810628274
   },
   {
     "country_iso3": "ZWE",
@@ -381,7 +381,7 @@
     "reserves_months_imports": 0.519375437391082,
     "reserves_usd": 484972804.72655,
     "external_debt_gdp_pct": 34.68943864470827,
-    "inflation_volatility_cv": 1.0377170898644736
+    "inflation_volatility_cv": 1.037717089864473
   },
   {
     "country_iso3": "ZWE",
@@ -393,6 +393,6 @@
     "reserves_months_imports": null,
     "reserves_usd": null,
     "external_debt_gdp_pct": null,
-    "inflation_volatility_cv": 0.042854510912825154
+    "inflation_volatility_cv": 0.04285451091275942
   }
 ]
