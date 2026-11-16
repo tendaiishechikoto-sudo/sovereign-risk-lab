@@ -10,7 +10,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2025",
-    "value": null,
+    "value": 46313111751.7,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -26,7 +26,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2024",
-    "value": 42886127218.3,
+    "value": 43023047666.5,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -42,7 +42,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2023",
-    "value": 42910026054.2,
+    "value": 42976166339.2,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -58,7 +58,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2022",
-    "value": 41556299639.8,
+    "value": 41608772147.9,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -74,7 +74,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2021",
-    "value": 41219100011.5,
+    "value": 41249059717.1,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -90,7 +90,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2020",
-    "value": 38038451074.1,
+    "value": 38054145679.5,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -106,7 +106,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2019",
-    "value": 34970099589.9,
+    "value": 34975437296.6,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -122,7 +122,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2018",
-    "value": 31433802015.7,
+    "value": 31439139873.7,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -138,7 +138,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2017",
-    "value": 26951349499.4,
+    "value": 26956140287,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -154,7 +154,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2016",
-    "value": 21057671043.3,
+    "value": 21066817343.3,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -170,7 +170,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2015",
-    "value": 19783760501.7,
+    "value": 19787973122.7,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -186,7 +186,7 @@
     },
     "countryiso3code": "MWI",
     "date": "2025",
-    "value": null,
+    "value": 4048235463.7,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -202,7 +202,7 @@
     },
     "countryiso3code": "MWI",
     "date": "2024",
-    "value": 3743648285.8,
+    "value": 3744680861.6,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -362,7 +362,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2025",
-    "value": null,
+    "value": 15989640599.2,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -378,7 +378,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2024",
-    "value": 14403740329.7,
+    "value": 15262918624.8,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -394,7 +394,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2023",
-    "value": 14548534104.3,
+    "value": 14551313697.1,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -410,7 +410,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2022",
-    "value": 14120782697.4,
+    "value": 14114230137.2,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -426,7 +426,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2021",
-    "value": 14111057739.5,
+    "value": 14126034922.3,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -442,7 +442,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2020",
-    "value": 13034165720.3,
+    "value": 13017520746,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -458,7 +458,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2019",
-    "value": 12540836851.8,
+    "value": 12529544823.6,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -474,7 +474,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2018",
-    "value": 12984251689.3,
+    "value": 12983559873.5,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -490,7 +490,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2017",
-    "value": 12864409243,
+    "value": 12871021049.8,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -506,7 +506,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2016",
-    "value": 11815422651.3,
+    "value": 11810569832.5,
     "unit": "",
     "obs_status": "",
     "decimal": 0
@@ -522,7 +522,7 @@
     },
     "countryiso3code": "ZWE",
     "date": "2015",
-    "value": 9995059194.1,
+    "value": 9990618354.2,
     "unit": "",
     "obs_status": "",
     "decimal": 0
