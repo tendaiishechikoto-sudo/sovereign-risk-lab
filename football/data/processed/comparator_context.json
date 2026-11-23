@@ -6,20 +6,20 @@
   },
   "latest_available": {
     "ZWE": {
-      "gdp_usd": 51215643905.5886,
+      "gdp_usd": null,
       "remittances_usd": null,
-      "year": 2025
+      "year": null
     },
     "KEN": {
-      "gdp_usd": 135941278878.815,
-      "remittances_usd": 5113701649.81261,
-      "year": 2025
+      "gdp_usd": null,
+      "remittances_usd": null,
+      "year": null
     },
     "MWI": {
-      "gdp_usd": 14918276698.303,
-      "remittances_usd": 305714489.319639,
-      "year": 2025
+      "gdp_usd": null,
+      "remittances_usd": null,
+      "year": null
     }
   },
-  "note": "GDP and remittances are World Bank figures, shown for economic scale only. No aggregate, country-of-origin football transfer income series exists in any source found for these three countries (or, for that matter, for most African exporting nations) - so this is NOT a computed 'transfer income as % of GDP' ratio. Comparing named case-study transfer fees (case_study_transfers.json) against these figures is left to the reader, deliberately, rather than turned into a single invented ratio."
+  "note": "World Bank fetch failed this run - not fabricated. Reason: Network error fetching https://api.worldbank.org/v2/country/ZWE;KEN;MWI/indicator/NY.GDP.MKTP.CD: HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
 }

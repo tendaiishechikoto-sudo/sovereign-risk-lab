@@ -1,6 +1,6 @@
 {
-  "run_started_at_utc": "2026-11-16T14:09:12.999488+00:00",
-  "run_finished_at_utc": "2026-11-16T14:10:47.511349+00:00",
+  "run_started_at_utc": "2026-11-23T16:41:48.767851+00:00",
+  "run_finished_at_utc": "2026-11-23T16:43:23.423780+00:00",
   "fefi_countries": {
     "NGA": "Nigeria",
     "GHA": "Ghana",
@@ -21,7 +21,8 @@
     "FEFI ranking this run (highest footprint first): NGA (926), GHA (677), SEN (511), CIV (484), CMR (327)",
     "ZWE: excluded from FEFI entirely - not tracked by CIES Monthly Report 100. Covered instead via case_study_transfers.json and comparator_context.json.",
     "KEN: excluded from FEFI entirely - not tracked by CIES Monthly Report 100. Covered instead via case_study_transfers.json and comparator_context.json.",
-    "MWI: excluded from FEFI entirely - not tracked by CIES Monthly Report 100. Covered instead via case_study_transfers.json and comparator_context.json."
+    "MWI: excluded from FEFI entirely - not tracked by CIES Monthly Report 100. Covered instead via case_study_transfers.json and comparator_context.json.",
+    "World Bank comparator context unavailable this run: Network error fetching https://api.worldbank.org/v2/country/ZWE;KEN;MWI/indicator/NY.GDP.MKTP.CD: HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
   ],
   "sources": {
     "cies_football_observatory": "https://football-observatory.hflip.co/MonthlyReport100 - Monthly Report 100, Football Expatriates 2020-2025",
