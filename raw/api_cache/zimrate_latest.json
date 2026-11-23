@@ -1,0 +1,674 @@
+[
+  {
+    "id": 256629,
+    "source": {
+      "id": 4,
+      "name": "Exchange Rate API",
+      "type": "official_api",
+      "url": "https://api.exchangerate-api.com/v4/latest/USD",
+      "active": true
+    },
+    "currencyPair": "USD/AED",
+    "buyRate": 3.67,
+    "sellRate": 3.67,
+    "scrapedAt": "2026-11-23T18:50:16.802541"
+  },
+  {
+    "id": 256634,
+    "source": {
+      "id": 4,
+      "name": "Exchange Rate API",
+      "type": "official_api",
+      "url": "https://api.exchangerate-api.com/v4/latest/USD",
+      "active": true
+    },
+    "currencyPair": "USD/BWP",
+    "buyRate": 14.33,
+    "sellRate": 14.33,
+    "scrapedAt": "2026-11-23T18:50:16.802591"
+  },
+  {
+    "id": 256638,
+    "source": {
+      "id": 4,
+      "name": "Exchange Rate API",
+      "type": "official_api",
+      "url": "https://api.exchangerate-api.com/v4/latest/USD",
+      "active": true
+    },
+    "currencyPair": "USD/CNY",
+    "buyRate": 6.68,
+    "sellRate": 6.68,
+    "scrapedAt": "2026-11-23T18:50:16.802613"
+  },
+  {
+    "id": 256631,
+    "source": {
+      "id": 4,
+      "name": "Exchange Rate API",
+      "type": "official_api",
+      "url": "https://api.exchangerate-api.com/v4/latest/USD",
+      "active": true
+    },
+    "currencyPair": "USD/EUR",
+    "buyRate": 0.911,
+    "sellRate": 0.911,
+    "scrapedAt": "2026-11-23T18:50:16.802586"
+  },
+  {
+    "id": 256637,
+    "source": {
+      "id": 4,
+      "name": "Exchange Rate API",
+      "type": "official_api",
+      "url": "https://api.exchangerate-api.com/v4/latest/USD",
+      "active": true
+    },
+    "currencyPair": "USD/GBP",
+    "buyRate": 0.764,
+    "sellRate": 0.764,
+    "scrapedAt": "2026-11-23T18:50:16.802611"
+  },
+  {
+    "id": 256632,
+    "source": {
+      "id": 4,
+      "name": "Exchange Rate API",
+      "type": "official_api",
+      "url": "https://api.exchangerate-api.com/v4/latest/USD",
+      "active": true
+    },
+    "currencyPair": "USD/MZN",
+    "buyRate": 63.64,
+    "sellRate": 63.64,
+    "scrapedAt": "2026-11-23T18:50:16.802588"
+  },
+  {
+    "id": 256635,
+    "source": {
+      "id": 4,
+      "name": "Exchange Rate API",
+      "type": "official_api",
+      "url": "https://api.exchangerate-api.com/v4/latest/USD",
+      "active": true
+    },
+    "currencyPair": "USD/NAD",
+    "buyRate": 17.51,
+    "sellRate": 17.51,
+    "scrapedAt": "2026-11-23T18:50:16.802607"
+  },
+  {
+    "id": 256630,
+    "source": {
+      "id": 4,
+      "name": "Exchange Rate API",
+      "type": "official_api",
+      "url": "https://api.exchangerate-api.com/v4/latest/USD",
+      "active": true
+    },
+    "currencyPair": "USD/ZAR",
+    "buyRate": 17.51,
+    "sellRate": 17.51,
+    "scrapedAt": "2026-11-23T18:50:16.802567"
+  },
+  {
+    "id": 256633,
+    "source": {
+      "id": 4,
+      "name": "Exchange Rate API",
+      "type": "official_api",
+      "url": "https://api.exchangerate-api.com/v4/latest/USD",
+      "active": true
+    },
+    "currencyPair": "USD/ZMW",
+    "buyRate": 20.53,
+    "sellRate": 20.53,
+    "scrapedAt": "2026-11-23T18:50:16.80259"
+  },
+  {
+    "id": 256636,
+    "source": {
+      "id": 4,
+      "name": "Exchange Rate API",
+      "type": "official_api",
+      "url": "https://api.exchangerate-api.com/v4/latest/USD",
+      "active": true
+    },
+    "currencyPair": "USD/ZWG",
+    "buyRate": 26.59,
+    "sellRate": 26.59,
+    "scrapedAt": "2026-11-23T18:50:16.802609"
+  },
+  {
+    "id": 256639,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG",
+    "buyRate": 26.5534,
+    "sellRate": 26.5534,
+    "scrapedAt": "2026-11-23T18:50:17.054635"
+  },
+  {
+    "id": 256643,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_Cash",
+    "buyRate": 40.0,
+    "sellRate": 40.0,
+    "scrapedAt": "2026-11-23T18:50:17.0548"
+  },
+  {
+    "id": 256642,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_InformalHigh",
+    "buyRate": 30.0,
+    "sellRate": 30.0,
+    "scrapedAt": "2026-11-23T18:50:17.054773"
+  },
+  {
+    "id": 256641,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_InformalLow",
+    "buyRate": 33.0,
+    "sellRate": 33.0,
+    "scrapedAt": "2026-11-23T18:50:17.054746"
+  },
+  {
+    "id": 256647,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_LiquidHo",
+    "buyRate": 26.5,
+    "sellRate": 26.5,
+    "scrapedAt": "2026-11-23T18:50:17.054946"
+  },
+  {
+    "id": 256640,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_MaxBusiness",
+    "buyRate": 27.2172,
+    "sellRate": 27.2172,
+    "scrapedAt": "2026-11-23T18:50:17.054684"
+  },
+  {
+    "id": 256644,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_OKSuperm",
+    "buyRate": 32.0,
+    "sellRate": 32.0,
+    "scrapedAt": "2026-11-23T18:50:17.054872"
+  },
+  {
+    "id": 256645,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_PickNPay",
+    "buyRate": 31.0,
+    "sellRate": 31.0,
+    "scrapedAt": "2026-11-23T18:50:17.054891"
+  },
+  {
+    "id": 256646,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_SaiMart",
+    "buyRate": 32.0,
+    "sellRate": 32.0,
+    "scrapedAt": "2026-11-23T18:50:17.054909"
+  },
+  {
+    "id": 185679,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_US100Not",
+    "buyRate": 2662.91,
+    "sellRate": 2662.91,
+    "scrapedAt": "2026-08-24T15:50:26.975602"
+  },
+  {
+    "id": 185676,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_US10Note",
+    "buyRate": 266.29,
+    "sellRate": 266.29,
+    "scrapedAt": "2026-08-24T15:50:26.975553"
+  },
+  {
+    "id": 185673,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_US1Note",
+    "buyRate": 26.63,
+    "sellRate": 26.63,
+    "scrapedAt": "2026-08-24T15:50:26.97552"
+  },
+  {
+    "id": 185677,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_US20Note",
+    "buyRate": 532.58,
+    "sellRate": 532.58,
+    "scrapedAt": "2026-08-24T15:50:26.975564"
+  },
+  {
+    "id": 185674,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_US2Note",
+    "buyRate": 53.26,
+    "sellRate": 53.26,
+    "scrapedAt": "2026-08-24T15:50:26.975528"
+  },
+  {
+    "id": 185678,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_US50Note",
+    "buyRate": 1331.46,
+    "sellRate": 1331.46,
+    "scrapedAt": "2026-08-24T15:50:26.975579"
+  },
+  {
+    "id": 185675,
+    "source": {
+      "id": 62,
+      "name": "ZimPriceCheck",
+      "type": "parallel_market",
+      "url": "https://zimpricecheck.com/price-updates/official-and-black-market-exchange-rates/",
+      "active": true
+    },
+    "currencyPair": "USD/ZiG_US5Note",
+    "buyRate": 133.15,
+    "sellRate": 133.15,
+    "scrapedAt": "2026-08-24T15:50:26.97554"
+  },
+  {
+    "id": 227939,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "AUD/ZWG",
+    "buyRate": 18.191,
+    "sellRate": 19.1239,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227938,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "BWP/ZWG",
+    "buyRate": 1.8299,
+    "sellRate": 1.9238,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227940,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "CAD/ZWG",
+    "buyRate": 18.4934,
+    "sellRate": 19.4418,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227934,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "CHF/ZWG",
+    "buyRate": 31.5147,
+    "sellRate": 33.1308,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227953,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "CNH/ZWG",
+    "buyRate": 3.8836,
+    "sellRate": 4.0827,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227952,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "CNY/ZWG",
+    "buyRate": 3.8836,
+    "sellRate": 4.0828,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227941,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "DKK/ZWG",
+    "buyRate": 3.887,
+    "sellRate": 4.0863,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227933,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "EUR/ZWG",
+    "buyRate": 29.0564,
+    "sellRate": 30.5465,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227936,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "GBP/ZWG",
+    "buyRate": 34.699,
+    "sellRate": 36.4784,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227951,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "HKD/ZWG",
+    "buyRate": 3.3055,
+    "sellRate": 3.475,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227942,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "INR/ZWG",
+    "buyRate": 0.2729,
+    "sellRate": 0.2869,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227937,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "JPY/ZWG",
+    "buyRate": 0.165,
+    "sellRate": 0.1734,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227946,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "KES/ZWG",
+    "buyRate": 0.1996,
+    "sellRate": 0.2099,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227947,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "MUR/ZWG",
+    "buyRate": 0.5494,
+    "sellRate": 0.5776,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227948,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "MWK/ZWG",
+    "buyRate": 0.0149,
+    "sellRate": 0.0157,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227943,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "NOK/ZWG",
+    "buyRate": 2.7779,
+    "sellRate": 2.9204,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227945,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "NZD/ZWG",
+    "buyRate": 14.751,
+    "sellRate": 15.5075,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227944,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "SEK/ZWG",
+    "buyRate": 2.6133,
+    "sellRate": 2.7473,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227949,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "SZL/ZWG",
+    "buyRate": 1.5708,
+    "sellRate": 1.6513,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227932,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "USD/ZWG",
+    "buyRate": 25.6473,
+    "sellRate": 27.5077,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227935,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "ZAR/ZWG",
+    "buyRate": 1.57,
+    "sellRate": 1.6505,
+    "scrapedAt": "2026-10-23T10:00:00"
+  },
+  {
+    "id": 227950,
+    "source": {
+      "id": 105,
+      "name": "Stanbic Bank",
+      "type": "bank",
+      "url": "https://www.stanbicbank.co.zw",
+      "active": true
+    },
+    "currencyPair": "ZMW/ZWG",
+    "buyRate": 1.2895,
+    "sellRate": 1.3556,
+    "scrapedAt": "2026-10-23T10:00:00"
+  }
+]

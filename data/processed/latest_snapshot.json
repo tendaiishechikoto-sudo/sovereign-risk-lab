@@ -10,7 +10,7 @@
       "inflation_volatility_cv": 1.0497833590821988,
       "reserves_months_imports": 0.704318586792695,
       "external_debt_gdp_pct": 34.6297015153543,
-      "fx_spread_pct": null,
+      "fx_spread_pct": 18.4655885671305,
       "policy_rate_volatility": null,
       "imf_program_flag": 55.0
     },
@@ -36,6 +36,7 @@
   "normalized_components_0_100": {
     "ZWE": {
       "inflation": 0.0,
+      "fx_spread": 50.0,
       "reserve_adequacy": 0.0,
       "external_debt": 0.0,
       "imf_program_flag": 100.0
@@ -55,13 +56,14 @@
     }
   },
   "csri_composite_0_100": {
-    "ZWE": 14.29,
+    "ZWE": 22.22,
     "KEN": 62.65,
     "MWI": 75.31
   },
   "components_used_per_country": {
     "ZWE": [
       "external_debt",
+      "fx_spread",
       "imf_program_flag",
       "inflation",
       "reserve_adequacy"
@@ -82,7 +84,6 @@
   },
   "components_excluded_reasons": {
     "ZWE": {
-      "fx_spread": "Live ZimRate fetch failed this run - see meta.json sanity_check_warnings for the reason. Not fabricated or backfilled with a stale value.",
       "policy_rate_volatility": "Only 1 curated policy rate decision(s) on file for this country - not enough to compute a meaningful volatility figure. See raw/manual/policy_rate_decisions.csv."
     },
     "KEN": {
@@ -101,7 +102,15 @@
     "imf_program_flag": 0.1
   },
   "zwe_fx_detail": {
-    "available": false,
-    "reason": "Live ZimRate fetch failed this run - see meta.json sanity_check_warnings for the reason. Not fabricated or backfilled with a stale value."
+    "official_rate_usd_zwg": 26.59,
+    "official_source_name": "Exchange Rate API",
+    "official_scraped_at": "2026-11-23T18:50:16.802609",
+    "parallel_rate_usd_zwg": 31.5,
+    "parallel_pairs_used": [
+      "USD/ZiG_InformalHigh",
+      "USD/ZiG_InformalLow"
+    ],
+    "parallel_source_name": "ZimPriceCheck",
+    "fx_spread_pct": 18.4655885671305
   }
 }
