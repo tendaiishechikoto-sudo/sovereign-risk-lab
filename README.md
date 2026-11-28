@@ -1,6 +1,6 @@
 # Sovereign Risk Lab — Currency & Inflation Risk Model
 
-A comparative currency stability and sovereign risk model for **Zimbabwe, Kenya, and Malawi** . Three countries I've lived in, built on live IMF and World Bank data, plus cited manual research where no live API exists. First model in a planned two-part portfolio project (a companion African football transfer-economy model is phase two).
+A comparative currency stability and sovereign risk model for **Zimbabwe, Kenya, and Malawi**. Three countries I've lived in, built on live IMF and World Bank data, plus cited manual research where no live API exists. Part one of a two-part portfolio project — part two, an African football transfer-economy model, is built, tested, and live in [`football/`](football/) ([dashboard](https://tendaiishechikoto-sudo.github.io/sovereign-risk-lab/football/frontend/)).
 
 
 ## What this is, in one sentence
@@ -8,6 +8,9 @@ A comparative currency stability and sovereign risk model for **Zimbabwe, Kenya,
 A Python pipeline pulls live inflation, FX reserve, and external-debt data from the World Bank and IMF, pulls a live Zimbabwe official-vs-parallel FX rate from a third-party aggregator, combines it with a small, explicitly-cited set of manually-researched figures (central bank policy decisions, devaluation events, IMF program status, none of which is exposed by any public API), computes a disclosed-weight composite risk index, and renders all of it in a dependency-light, hand-built dashboard.
 
 ## Live dashboard
+
+- Phase one — currency & inflation risk: https://tendaiishechikoto-sudo.github.io/sovereign-risk-lab/frontend/
+- Phase two — football transfer economy: https://tendaiishechikoto-sudo.github.io/sovereign-risk-lab/football/frontend/
 
 GitHub Pages' classic "deploy from a branch" option only serves the repo root or a `/docs` folder — it can't point at `/frontend` directly, so this repo deploys via the Actions-based method instead (`.github/workflows/pages.yml`), which publishes the whole repo as-is.
 
