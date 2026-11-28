@@ -1,6 +1,6 @@
 # Sovereign Risk Lab — Currency & Inflation Risk Model
 
-A comparative currency stability and sovereign risk model for **Zimbabwe, Kenya, and Malawi** . Three countries I've lived in, built on live IMF and World Bank data, plus cited manual research where no live API exists. Part one of a two-part portfolio project — part two, an African football transfer-economy model, is built, tested, and live in [`football/`](football/) ([dashboard](https://tendaiishechikoto-sudo.github.io/sovereign-risk-lab/football/frontend/)).
+A comparative currency stability and sovereign risk model for **Zimbabwe, Kenya, and Malawi**. Three countries I've lived in, built on live IMF and World Bank data, plus cited manual research where no live API exists. Part one of a two-part portfolio project — part two, an African football transfer-economy model, is built, tested, and live in [`football/`](football/) ([dashboard](https://tendaiishechikoto-sudo.github.io/sovereign-risk-lab/football/frontend/)).
 
 
 ## What this is, in one sentence
